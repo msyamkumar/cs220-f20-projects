@@ -1,0 +1,15 @@
+{
+  "score": 100.0,
+  "tests": [
+    {
+      "test": 1,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 2,
+      "result": "PASS",
+      "weight": 1
+    }
+  ]
+}
