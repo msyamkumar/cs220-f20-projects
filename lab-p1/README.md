@@ -1,12 +1,5 @@
 # Lab-P1: Running Programs
 
-**Important:** Before going to lab, install Python 3 on your laptop.
-We've created videos showing how to do this on
-[Windows](https://youtu.be/9DdOYx9EEXQ) and
-[Mac](https://youtu.be/WyEpOztcy5w).  If you want to use the computers
-in the lab room (instead of your laptop), make sure to [activate your
-account](https://accounts.cs.wisc.edu/) before you go.
-
 Welcome to your first lab!  This semester, you're going to learn how
 to write your own Python code.  But for this lab, you're just going to
 practice running six Python programs we give you, including a game!
@@ -14,6 +7,11 @@ practice running six Python programs we give you, including a game!
 Labs are meant to be self guiding, and you may leave when you're
 finished.  Be sure to ask a neighbor or flag down a TA/mentor if you
 have any questions, though.  Don't be shy!
+
+<h1> Attend lab hours
+</h1>
+
+ Lab hours will take place on [Canvas->BBCollaborate Ultra](https://canvas.wisc.edu/courses/220720/external_tools/3041). Please see the schedule here: [Lab Hours Schedule](https://piazza.com/class/ked08stit3p2hp?cid=11) You may find the link in the navigation bar on our course Canvas site. During these times TAs and peer mentors will be available to answer questions about lab exercises, discuss course content and go over strategies for solving the project questions. Students will not share their code for projects during lab hours use office hours for debugging help or questions about your code. lab hours are not mandatory.
 
 ## Download Your First Program
 
