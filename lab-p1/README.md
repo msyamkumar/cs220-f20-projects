@@ -4,10 +4,6 @@ Welcome to your first lab!  This semester, you're going to learn how
 to write your own Python code.  But for this lab, you're just going to
 practice running six Python programs we give you, including a game!
 
-Labs are meant to be self guiding, and you may leave when you're
-finished.  Be sure to ask a neighbor or flag down a TA/mentor if you
-have any questions, though.  Don't be shy!
-
 <h2> Attend lab hours
 
 </h2>
