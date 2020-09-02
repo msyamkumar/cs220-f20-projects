@@ -37,17 +37,12 @@ something like this:
 Downloading files from GitHub (the site hosting this document) is a
 little tricky for those new to it.  Follow these steps careful:
 
-1. left-click on "hello.py"
-2. right-click on the "Raw" button
-3. Choose "Save Link As..." (or similar)
-4. Save the file in your "lab1" folder
-
-We recommend you use the Chrome browser (other browsers will work too,
-but sometimes we've seen Safari automatically renaming files when
-downloaded, which is usually problematic).  In Chrome, right-clicking
-the "Raw" button looks like this:
-
-<img src="raw.png" width="300">
+1. Create a new file named as "hello.py" in your "lab1" folder
+2. Open a text editor for the file "hello.py"
+3. left-click on "hello.py"
+4. left-click on the "Raw" button
+5. Copy-paste the content to the file "hello.py"
+6. Save and close the file
 
 ## Run Your First Program
 
