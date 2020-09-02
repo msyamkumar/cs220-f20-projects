@@ -29,7 +29,7 @@ recommend you create a sub-folder called "lab1" and use it for all
 your files related to this lab.
 
 Next, you will need to download a file named "hello.py" to your "lab1"
-folder.  At the top of this page, you'll see a list of files,
+folder. **This is a little tricky. Please follow all the steps closedly.** At the top of this page, you'll see a list of files,
 something like this:
 
 <img src="github.png" width="800">
