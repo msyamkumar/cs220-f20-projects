@@ -86,7 +86,7 @@ def check_cell_text(qnum, cell):
         actual_float = float(actual)
         expected_float = float(expected)
         if not math.isclose(actual_float, expected_float, rel_tol=1e-02, abs_tol=1e-02):
-            return "found {} in {} but expected {}".format(actual, location_name, expected)
+            return 'found {} but expected {}'.format(actual, expected)
     except Exception as e:
         if actual != expected:
             return 'found {} but expected {}'.format(actual, expected)
