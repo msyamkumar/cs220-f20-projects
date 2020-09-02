@@ -1,6 +1,6 @@
 # Project 1 (P1)
 
-Welcome to our first project! Please follow the instruction in [lab](https://github.com/msyamkumar/cs220-f20-projects/tree/master/lab-p1) before starting the project.
+Welcome to our first project! Please follow the instruction in [lab](https://github.com/msyamkumar/cs220-f20-projects/tree/master/lab-p1) closely before starting the project.
 
 ## Clarifications/Corrections
 
