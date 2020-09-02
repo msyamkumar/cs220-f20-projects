@@ -171,7 +171,7 @@ automatically for you.  Let's paste this in that cell:
 34*67
 ```
 
-Hit SHIFT-ENTER again to run it, and you'll see an output of `42`.
+Hit SHIFT-ENTER again to run it, and you'll see an output of `2278`.
 
 At this point, your notebook should look like this:
 
