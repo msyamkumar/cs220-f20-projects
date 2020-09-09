@@ -2,7 +2,7 @@
 
 ## Clarifications/Corrections
 
-None yet.
+Sep 9th: q19: replaced the last line `number == 35` into `number==36`.
 
 ## Overview
 
