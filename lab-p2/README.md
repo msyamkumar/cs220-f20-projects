@@ -114,9 +114,9 @@ that you're back in the shell, run the following:
 
 Let's try to create a second program:
 
-1. run `idle circle.py`
-2. paste `print((8 / 2) ** 2 * 3.14)`
-3. run the program (either in idle with `F5`, or by exiting idle and running `python circle.py` in the shell)
+1. Run `idle circle.py`
+2. Paste `print((8 / 2) ** 2 * 3.14)`
+3. Run the program (either in idle with `F5`, or by exiting idle and running `python circle.py` in the shell)
 
 The program computes the area of a circle.  *Can you figure out what
 the radius of that circle is by reading the code?*
@@ -205,10 +205,10 @@ goes from 0 to 11 o'clock).
 Try writing some expressions to answer the following questions
 regarding a CS clock:
 
-* what time will it be 6 hours after 9 o'clock? (run `(9 + 6) % 12` in a cell to find the answer, which is 3 o'clock)
-* what time was 2 hours before 1 o'clock? (run `(1 - 2) % 12` in a cell to find the answer, which is 11 o'clock)
-* what time was 4 hours before 2 o'clock?
-* what will it be 12 hours after 6 o'clock?
-* what will it be 13 hours after 6 o'clock?
-* what will it be 24 hours after 6 o'clock?
-* what will it be 25 hours after 6 o'clock?
+* What time will it be 6 hours after 9 o'clock? (run `(9 + 6) % 12` in a cell to find the answer, which is 3 o'clock)
+* What time was 2 hours before 1 o'clock? (run `(1 - 2) % 12` in a cell to find the answer, which is 11 o'clock)
+* What time was 4 hours before 2 o'clock?
+* What will it be 12 hours after 6 o'clock?
+* What will it be 13 hours after 6 o'clock?
+* What will it be 24 hours after 6 o'clock?
+* What will it be 25 hours after 6 o'clock?
