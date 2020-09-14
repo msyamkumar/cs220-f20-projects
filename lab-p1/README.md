@@ -29,7 +29,7 @@ recommend you create a sub-folder called "lab1" and use it for all
 your files related to this lab.
 
 Next, you will need to download a file named "hello.py" to your "lab1"
-folder. **This is a little tricky. Please follow all the steps closedly.** At the top of this page, you'll see a list of files,
+folder. **This is a little tricky. Please follow all the steps closely.** At the top of this page, you'll see a list of files,
 something like this:
 
 <img src="github.png" width="800">
@@ -37,8 +37,8 @@ something like this:
 Downloading files from GitHub (the site hosting this document) is a
 little tricky for those new to it.  Follow these steps careful:
 
-1. left-click on "hello.py"
-2. right-click on the "Raw" button
+1. Left-click on "hello.py"
+2. Right-click on the "Raw" button
 3. Choose "Save Link As..." (or similar)
 4. Save the file in your "lab1" folder
 
@@ -62,15 +62,15 @@ for a file or folder.
 Now, you'll need to open something called a "terminal emulator".
 
 **Windows**:
-1. hit the Windows logo key on your keyboard
-2. type "powershell"
-3. open "Windows PowerShell" (be careful, DO NOT choose the ones that say "ISE" or "x86")
+1. Hit the Windows logo key on your keyboard
+2. Type "powershell"
+3. Open "Windows PowerShell" (be careful, DO NOT choose the ones that say "ISE" or "x86")
 
 **Mac**:
-1. open Finder
-2. click "Applications"
-3. open "Utilities"
-4. double-click Terminal.app
+1. Open Finder
+2. Click "Applications"
+3. Open "Utilities"
+4. Double-click Terminal applicaiton
 
 OK, now the directions are the same for Mac and Windows again.  Type
 this in the terminal (replace `LAB1-PATH` with the pathname of `lab1`, as
@@ -81,7 +81,7 @@ hit enter:
 cd "LAB1-PATH"
 ```
 
-Type `ls` (that's the letter, not a one) and hit enter.  If you've
+Type `ls` (that's the letter "l", not a one) and hit enter.  If you've
 done everything correctly so far, you should see the "hello.py" file
 that you downloaded in step 1 listed.
 
@@ -161,7 +161,7 @@ ValueError: could not convert string to float: 'five'
 ```
 
 When you see the word "Traceback", it means the program crashed.  The
-double.py program can only take numbers as digits (so "5" but not
+double.py program can only take numbers as digits (so 5 but not
 "five"), so it crashed when you typed something else.  Eventually,
 we'll learn how to understand what gets printed when a program crashes
 to identify the root of the problem, but for now we won't worry about
@@ -260,8 +260,8 @@ python take.py
 ```
 
 Here are a few things to ponder/try about this program:
-1. can you beat the program?
-2. what happens if you try to cheat?
-3. can you exit before losing by typing "q"?  What about a capital "Q"?
+1. Can you beat the program?
+2. What happens if you try to cheat?
+3. Can you exit before losing by typing "q"?  What about a capital "Q"?
 
 Congrats on finishing your first CS 220 lab!
