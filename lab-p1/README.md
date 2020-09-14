@@ -8,7 +8,7 @@ practice running six Python programs we give you, including a game!
 
 </h2>
 
- Lab hours will take place on [Canvas->BBCollaborate Ultra](https://canvas.wisc.edu/courses/220720/external_tools/3041). Please see the schedule here: [Lab Hours Schedule](https://piazza.com/class/ked08stit3p2hp?cid=11) You may find the link in the navigation bar on our course Canvas site. During these times TAs and peer mentors will be available to answer questions about lab exercises, discuss course content and go over strategies for solving the project questions. Students will not share their code for projects during lab hours use office hours for debugging help or questions about your code. lab hourfs are not mandatory.
+ Lab hours will take place on [Canvas->BBCollaborate Ultra](https://canvas.wisc.edu/courses/220720/external_tools/3041). Please see the schedule here: [Lab Hours Schedule](https://piazza.com/class/ked08stit3p2hp?cid=11) You may find the link in the navigation bar on our course Canvas site. During these times TAs and peer mentors will be available to answer questions about lab exercises, discuss course content and go over strategies for solving the project questions. Students will not share their code for projects during lab hours. Use office hours for debugging help or questions about your code. Lab hours are not mandatory.
 
 ## Download Your First Program
 
