@@ -60,8 +60,8 @@ project document.  You'll see a list of files, something like this:
 Downloading files from GitHub (the site hosting this document) is a
 little tricky for those new to it.  Follow these steps carefully:
 
-1. left-click on `test.py`
-2. right-click on the "Raw" button
+1. Left-click on `test.py`
+2. Right-click on the "Raw" button
 3. Choose "Save Link As..." (or similar)
 4. Save the file in your `p1` folder
 
@@ -84,24 +84,24 @@ need a full pathname, something like
 may be slightly different on your computer, but you can figure it out
 with these steps:
 
-1. open your `Documents` in either File Explorer or Finder
-2. copy the pathname of `p1` using either these [Windows directions](https://www.pcworld.com/article/251406/windows_tips_copy_a_file_path_show_or_hide_extensions.html) or [Mac directions](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
-3. paste the pathname of `p1` in your notes somewhere
+1. Open your `Documents` in either File Explorer or Finder
+2. Copy the pathname of `p1` using either these [Windows directions](https://www.pcworld.com/article/251406/windows_tips_copy_a_file_path_show_or_hide_extensions.html) or [Mac directions](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
+3. Paste the pathname of `p1` in your notes somewhere
 
 Now we want to create something called a "notebook" in your `p1`
 folder.  To do so, you'll need to open something called a "terminal
 emulator".
 
 **Mac**:
-1. open Finder
-2. click "Applications"
-3. open "Utilities"
-4. double-click Terminal.app
+1. Open Finder
+2. Click "Applications"
+3. Open "Utilities"
+4. Double-click Terminal application
 
 **Windows**:
-1. hit the Windows logo key on your keyboard
-2. type `powershell`
-3. open "Windows PowerShell" (be careful, DO NOT choose the ones that say "ISE" or "x86")
+1. Hit the Windows logo key on your keyboard
+2. Type `powershell`
+3. Open "Windows PowerShell" (be careful, DO NOT choose the ones that say "ISE" or "x86")
 
 OK, now the directions are the same for Mac and Windows again.  Type
 this in the terminal (replace `P1-PATH` with the pathname of `p1`, as
@@ -199,12 +199,12 @@ Remember the test.py file we asked you to download?  That file is a
 Python program that you can run to check whether your notebook looks
 correct before you turn it in.  Here are the steps to use it:
 
-1. in your notebook, click "Kernel" from the menu, then click "Restart & Run All"
-2. confirm "Restart & Run All Cells"
-3. click "File" from the menu (beneath the Jupyter logo), then click "Save and Checkpoint"
-4. open a new terminal window, as you did in step 2 of this document (**important: leave the previously opened one undisturbed**)
-5. type the same `cd "P1-PATH"` command in the terminal as before, again replacing `P1-PATH` with the pathname of `p1` in your notes, and hit ENTER
-6. type `python test.py` and hit ENTER; if that doesn't work, try `python3 test.py`; if that still doesn't work, please get help during office hours.
+1. In your notebook, click "Kernel" from the menu, then click "Restart & Run All"
+2. Confirm "Restart & Run All Cells"
+3. Click "File" from the menu (beneath the Jupyter logo), then click "Save and Checkpoint"
+4. Open a new terminal window, as you did in step 2 of this document (**important: leave the previously opened one undisturbed**)
+5. Type the same `cd "P1-PATH"` command in the terminal as before, again replacing `P1-PATH` with the pathname of `p1` in your notes, and hit ENTER
+6. Type `python test.py` and hit ENTER; if that doesn't work, try `python3 test.py`; if that still doesn't work, please get help during office hours.
 
 If everything is setup properly and your notebook is correct, you'll see something like this:
 
@@ -262,12 +262,12 @@ partner).
 
 To hand in the notebook, complete the following steps:
 
-1. save and run through the tests one last time (after you added your Net ID info)
-2. go to [https://www.msyamkumar.com/cs220/f20/submission.html](https://www.msyamkumar.com/cs220/f20/submission.html)
-3. select "Project 1"
-4. click "Choose File" and find your main.ipynb file
-5. click "Submit"
-6. check the "Submission Status" below; it is normal to see some "info:" messages, but make sure you correct any "error:" messages
-7. click "View Submissions" to make sure your submission looks correct
+1. Save and run through the tests one last time (after you added your Net ID info)
+2. Go to [https://www.msyamkumar.com/cs220/f20/submission.html](https://www.msyamkumar.com/cs220/f20/submission.html)
+3. Select "Project 1"
+4. Click "Choose File" and find your main.ipynb file
+5. Click "Submit"
+6. Check the "Submission Status" below; it is normal to see some "info:" messages, but make sure you correct any "error:" messages
+7. Click "View Submissions" to make sure your submission looks correct
 
 Congrats on finishing your first CS 220 project!

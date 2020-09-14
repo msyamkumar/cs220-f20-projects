@@ -55,9 +55,9 @@ Now it gets a little tricky.  You need to figure out the path of your
 "lab1" folder.  You can think of a "path" as just a more complete name
 for a file or folder.
 
-1. open your `Documents` in either File Explorer or Finder
-2. copy the pathname of `lab1` using either these [Windows directions](https://www.pcworld.com/article/251406/windows_tips_copy_a_file_path_show_or_hide_extensions.html) or [Mac directions](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
-3. paste the pathname of `lab1` in your notes somewhere
+1. Open your `Documents` in either File Explorer or Finder
+2. Copy the pathname of `lab1` using either these [Windows directions](https://www.pcworld.com/article/251406/windows_tips_copy_a_file_path_show_or_hide_extensions.html) or [Mac directions](http://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
+3. Paste the pathname of `lab1` in your notes somewhere
 
 Now, you'll need to open something called a "terminal emulator".
 
@@ -125,8 +125,8 @@ programs look like.
 Repeat the steps above that you took to download "hello.py", but this
 time download the "double.py" file instead.  Make sure that:
 
-1. you download it to the same "lab1" folder as before
-2. you still have the terminal window open where you typed `python hello.py` before
+1. You download it to the same "lab1" folder as before
+2. You still have the terminal window open where you typed `python hello.py` before
 
 Type `ls` and hit enter.  If you did everything correctly, you should
 see "double.py" listed along with "hello.py".  If you don't, try again
