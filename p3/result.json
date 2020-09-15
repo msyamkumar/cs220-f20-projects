@@ -1,0 +1,105 @@
+{
+  "score": 100.0,
+  "tests": [
+    {
+      "test": 1,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 2,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 3,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 4,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 5,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 6,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 7,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 8,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 9,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 10,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 11,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 12,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 13,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 14,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 15,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 16,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 17,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 18,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 19,
+      "result": "PASS",
+      "weight": 1
+    },
+    {
+      "test": 20,
+      "result": "PASS",
+      "weight": 1
+    }
+  ]
+}
