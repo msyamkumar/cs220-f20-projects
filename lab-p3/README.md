@@ -53,7 +53,7 @@ policies](https://www.msyamkumar.com/cs220/s20/syllabus.html).
 ## Setup
 
 Create a `lab3` directory and download `lab.csv` above.  Also download
-these files from the [P3 posting](https://github.com/msyamkumar/cs220-projects/tree/master/spring20/p3)
+these files from the [P3 posting](https://github.com/msyamkumar/cs220-f20-projects/tree/master/p3)
 to the `lab3` directory:
 * `madison.csv`
 * `project.py`
