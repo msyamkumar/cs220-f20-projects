@@ -2,14 +2,7 @@
 
 ## Corrections
 
-STEPS TO RENAME .txt FILES to .csv FILES:
-1. Open a terminal.
-2. Navigate to the directory where you have saved these files
-3. Rename with the mv command:
-
-mv lab.txt lab.csv
-
-mv madison.txt madison.csv
+Sep 15: correct the link for p3.
 
 ## Description
 
