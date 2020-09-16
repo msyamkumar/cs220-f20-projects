@@ -6,7 +6,7 @@
 
 * Sep 16: to make q10 clearer, modified the description. 
 
-* Sep 16: remove the function5 and set function4 as optional.
+* Sep 16: set function4 as optional.
 
 # Project 3
 
@@ -174,7 +174,7 @@ to `1.195455545247126 `.
 
 ### (**Optional**) Function 4: `max_spending_agency(start_year, end_year)`
 
-This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`.
+This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`. You are not required to complete this function because it need the knowledge of loop.
 
 You can start from the following code:
 
@@ -205,18 +205,7 @@ In this question, feel free to manually code it without using the function `max_
 
 ### Q12: Which agency has the maximum overall spending from 2017 to 2019?
 
-In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. If you are not using the function, please specify each maximum overall spending for each agency in the comments, and leave only the agency name at the last line of the answer block. For instance:
-
-```python
-#Q11
-# some codes to obtain maximum overall spending for each agency
-# gyms: maximum overall spending value
-# governments: maximum overall spending value
-# stores: maximum overall spending value
-# schools: maximum overall spending value
-# restaurant: maximum overall spending value
-"gyms" # if gyms is the max value among 5 agencies
-```
+In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. 
 
 
 ### Function 5: `change_per_year(agency, start_year, end_year)`
