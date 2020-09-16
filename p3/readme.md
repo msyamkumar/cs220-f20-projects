@@ -1,7 +1,7 @@
 # Project 3
 
 <h2> Corrections/Clarifications
-  
+
 </h2>
 
 * Sep 16: to make q10 clearer, modified the description. 
@@ -174,7 +174,7 @@ to `1.195455545247126 `.
 
 ### (**Optional**) Function 4: `max_spending_agency(start_year, end_year)`
 
-This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`. You are not required to complete this function because it need the knowledge of loop.
+This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`. **You are not required to complete this function because it need the knowledge of loop.**
 
 You can start from the following code:
 
@@ -190,17 +190,21 @@ which does nothing.  Note the default arguments above.
 
 ### Q11: Which agency has the maximum overall spending from 2018 to 2020?
 
-In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. If you are not using the function, please specify each maximum overall spending for each agency in the comments, and leave only the agency name at the last line of the answer block. For instance:
+In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. If you are not using the function, feel free to use print() or any method to see the values for each agency while finding the answer. However, please (1) **remove all the print() in the answer block** (2) **code the answer at the last line without printing them**.
 
+Here is the example for the answer block:
 ```python
 #Q11
 # some codes to obtain maximum overall spending for each agency
-# gyms: maximum overall spending value
-# governments: maximum overall spending value
-# stores: maximum overall spending value
-# schools: maximum overall spending value
-# restaurant: maximum overall spending value
-"gyms" # if gyms is the max value among 5 agencies
+sum_governments = ...
+sum_gyms = ...
+sum_restaurants = ...
+sum_stores = ...
+sum_schools = ...
+
+# leave the answer as a string at the last line of the block
+# e.g. if gyms is the max value among 5 agencies, then leave "gym" here
+"gyms"
 ```
 
 ### Q12: Which agency has the maximum overall spending from 2017 to 2019?
