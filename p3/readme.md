@@ -4,7 +4,7 @@
   
 </h2>
 
-Sep 16: to make q10 clearer, modified the statement "How much did the gyms spend above their average in 2019?" to "What percentage of the average gym spend is above their average in 2019?".
+Sep 16: to make q10 clearer, modified the description.
 
 ## Description
 
@@ -163,7 +163,7 @@ Use your `agency_avg` function.
 
 ### Q10: How much did the gyms spend above their average in 2019? 
 
-You should answer by giving a percent between 0 and 100, with no
+You should answer by giving a **percentage** of the gyms spend above their average between 0 and 100, with no
 percent sign.  In this case, your code should produce a number close
 to `1.195455545247126 `.
 
