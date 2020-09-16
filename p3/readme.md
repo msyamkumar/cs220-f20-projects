@@ -1,5 +1,11 @@
 # Project 3
 
+<h2> Corrections/Clarifications
+  
+</h2>
+
+Sep 16: to make q10 clearer, modified the statement "How much did the gyms spend above their average in 2019?" to "What percentage of the average gym spend is above their average in 2019?".
+
 ## Description
 
 In this project, you'll analyze spending data from
@@ -155,7 +161,7 @@ Use your `agency_avg` function.
 
 ### Q9: How much is spent per year on restaurants, on average?
 
-### Q10: How much did the gyms spend above their average in 2019?
+### Q10: How much did the gyms spend above their average in 2019? 
 
 You should answer by giving a percent between 0 and 100, with no
 percent sign.  In this case, your code should produce a number close
