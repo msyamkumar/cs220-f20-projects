@@ -4,7 +4,11 @@
   
 </h2>
 
-Sep 16: to make q10 clearer, modified the description.
+* Sep 16: to make q10 clearer, modified the description. 
+
+* Sep 16: remove the function5 and set function4 as optional.
+
+# Project 3
 
 ## Description
 
@@ -38,16 +42,17 @@ cell should contain `#q13`.
 
 The data looks like this:
 
-agency_id|agency|2017|2018|2019|2020
-------|------|------|------|------|------
-3|schools|68.06346877|71.32575615000002|73.24794765999998|77.87553504
-6|gyms|49.73757877|51.96834048|53.14405332|55.215007260000014
-7|restaurants|16.96543425|18.12552139|19.13634773|19.845065799999997
-122|stores|180.371421039999998|19.159243279999995|19.316837019999994|19.7607100000000
-15|governments|25.368879940000006|28.2286218|26.655754419999994|27.798933740000003
+| agency_id | agency      | 2017                | 2018               | 2019               | 2020               |
+| --------- | ----------- | ------------------- | ------------------ | ------------------ | ------------------ |
+| 3         | schools     | 68.06346877         | 71.32575615000002  | 73.24794765999998  | 77.87553504        |
+| 6         | gyms        | 49.73757877         | 51.96834048        | 53.14405332        | 55.215007260000014 |
+| 7         | restaurants | 16.96543425         | 18.12552139        | 19.13634773        | 19.845065799999997 |
+| 122       | stores      | 180.371421039999998 | 19.159243279999995 | 19.316837019999994 | 19.7607100000000   |
+| 15        | governments | 25.368879940000006  | 28.2286218         | 26.655754419999994 | 27.798933740000003 |
 
 The dataset is in the `madison.csv` file.  We'll learn about CSV files
 later in the semester.  For now, you should know this about them:
+
 * it's easy to create them by exporting from Excel
 * it's easy to use them in Python programs
 * we'll give you a `project.py` module to help you extract data from CSV files until we teach you to do it directly yourself
@@ -161,13 +166,13 @@ Use your `agency_avg` function.
 
 ### Q9: How much is spent per year on restaurants, on average?
 
-### Q10: How much did the gyms spend above their average in 2019? 
+### Q10: How much did the gyms spend above their average in 2019?
 
 You should answer by giving a **percentage** of the gyms spend above their average between 0 and 100, with no
 percent sign.  In this case, your code should produce a number close
 to `1.195455545247126 `.
 
-### Function 4: `max_spending_agency(start_year, end_year)`
+### (**Optional**) Function 4: `max_spending_agency(start_year, end_year)`
 
 This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`.
 
@@ -185,9 +190,33 @@ which does nothing.  Note the default arguments above.
 
 ### Q11: Which agency has the maximum overall spending from 2018 to 2020?
 
-Use the default arguments (your call to `max_spending_agency` should not pass any argument).
+In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. If you are not using the function, please specify each maximum overall spending for each agency in the comments, and leave only the agency name at the last line of the answer block. For instance:
+
+```python
+#Q11
+# some codes to obtain maximum overall spending for each agency
+# gyms: maximum overall spending value
+# governments: maximum overall spending value
+# stores: maximum overall spending value
+# schools: maximum overall spending value
+# restaurant: maximum overall spending value
+"gyms" # if gyms is the max value among 5 agencies
+```
 
 ### Q12: Which agency has the maximum overall spending from 2017 to 2019?
+
+In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. If you are not using the function, please specify each maximum overall spending for each agency in the comments, and leave only the agency name at the last line of the answer block. For instance:
+
+```python
+#Q11
+# some codes to obtain maximum overall spending for each agency
+# gyms: maximum overall spending value
+# governments: maximum overall spending value
+# stores: maximum overall spending value
+# schools: maximum overall spending value
+# restaurant: maximum overall spending value
+"gyms" # if gyms is the max value among 5 agencies
+```
 
 
 ### Function 5: `change_per_year(agency, start_year, end_year)`
@@ -271,4 +300,4 @@ Percent error = extrapolate_error*100/actual_spending_of_the_agency_for_the_extr
 
 ### Q20: what is the standard deviation for stores spending over the 4 years?
 
-Compute the population standard devation, as in [this example](https://en.wikipedia.org/wiki/Standard_deviation#Population_standard_deviation_of_grades_of_eight_students).
+Compute the population standard deviation, as in [this example](https://en.wikipedia.org/wiki/Standard_deviation#Population_standard_deviation_of_grades_of_eight_students).
