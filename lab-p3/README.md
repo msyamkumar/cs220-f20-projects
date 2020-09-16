@@ -51,7 +51,21 @@ to the `lab3` directory:
 * `madison.csv`
 * `project.py`
 
-Open a terminal and navigate to your `lab3` directory.  Run `ls` to
+When you download the .csv files from the github, you may see the files are changed into .txt files. How to fix this issue?
+
+STEPS TO RENAME .txt FILES to .csv FILES:
+
+1. Open a terminal.
+2. Navigate to the directory where you have saved these files
+3. ename with the mv command:
+
+`mv lab.txt lab.csv`
+
+`mv madison.txt madison.csv`
+
+Now, your successfully get the .csv file!
+
+Next, open a terminal and navigate to your `lab3` directory.  Run `ls` to
 make sure your three files are available.
 
 We'll be doing these exercises in interactive mode, so type `python`
