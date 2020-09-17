@@ -4,6 +4,8 @@
 
 Sep 15: correct the link for p3.
 
+Sep 16: update the lab.csv.
+
 ## Description
 
 For many projects this semester, we'll provide you with a *module* (a
@@ -57,13 +59,13 @@ STEPS TO RENAME .txt FILES to .csv FILES:
 
 1. Open a terminal.
 2. Navigate to the directory where you have saved these files
-3. ename with the mv command:
+3. Rename with the mv command:
 
 `mv lab.txt lab.csv`
 
 `mv madison.txt madison.csv`
 
-Now, your successfully get the .csv file!
+Now, you successfully get the .csv file!
 
 Next, open a terminal and navigate to your `lab3` directory.  Run `ls` to
 make sure your three files are available.
@@ -259,35 +261,35 @@ After calling init, let's try calling `project.dump()` again.  It
 should show this now:
 
 ```
-fire    [ID 6]
-  2015: $49.737579 MILLION
-  2016: $51.968340 MILLION
-  2017: $53.144053 MILLION
-  2018: $55.215007 MILLION
+governments [ID 15]
+  2017: $25.368880 MILLION
+  2018: $28.228622 MILLION
+  2019: $26.655754 MILLION
+  2020: $27.798934 MILLION
 
-library [ID 9]
-  2015: $16.965434 MILLION
-  2016: $18.125521 MILLION
-  2017: $19.136348 MILLION
-  2018: $19.845066 MILLION
+gyms    [ID 6]
+  2017: $49.737579 MILLION
+  2018: $51.968340 MILLION
+  2019: $53.144053 MILLION
+  2020: $55.215007 MILLION
 
-parks   [ID 12]
-  2015: $18.371421 MILLION
-  2016: $19.159243 MILLION
-  2017: $19.316837 MILLION
-  2018: $19.760710 MILLION
+restaurants [ID 7]
+  2017: $16.965434 MILLION
+  2018: $18.125521 MILLION
+  2019: $19.136348 MILLION
+  2020: $19.845066 MILLION
 
-police  [ID 5]
-  2015: $68.063469 MILLION
-  2016: $71.325756 MILLION
-  2017: $73.247948 MILLION
-  2018: $77.875535 MILLION
+schools [ID 3]
+  2017: $68.063469 MILLION
+  2018: $71.325756 MILLION
+  2019: $73.247948 MILLION
+  2020: $77.875535 MILLION
 
-streets [ID 15]
-  2015: $25.368880 MILLION
-  2016: $28.228622 MILLION
-  2017: $26.655754 MILLION
-  2018: $27.798934 MILLION
+stores  [ID 122]
+  2017: $180.371421 MILLION
+  2018: $19.159243 MILLION
+  2019: $19.316837 MILLION
+  2020: $19.760710 MILLION
 ```
 
 This is actual spending data for five large agencies in the City of
@@ -304,22 +306,22 @@ example, try this to see some smaller agencies that we saved in
 WARNING!  Opening a path other than madison.csv.  That's fine for testing your code yourself, but madison.csv will be the only file around when we test your code for grading.
 >>> project.dump()
 attorney [ID 3]
-  2015: $2.703978 MILLION
-  2016: $2.775633 MILLION
-  2017: $2.989084 MILLION
-  2018: $2.993189 MILLION
+  2017: $2.703978 MILLION
+  2018: $2.775633 MILLION
+  2019: $2.989084 MILLION
+  2020: $2.993189 MILLION
 
 clerk   [ID 4]
-  2015: $1.292095 MILLION
-  2016: $2.394929 MILLION
-  2017: $2.266173 MILLION
-  2018: $2.223049 MILLION
+  2017: $1.292095 MILLION
+  2018: $2.394929 MILLION
+  2019: $2.266173 MILLION
+  2020: $2.223049 MILLION
 
 mayor   [ID 2]
-  2015: $1.440244 MILLION
-  2016: $1.362939 MILLION
-  2017: $1.522648 MILLION
-  2018: $1.535043 MILLION
+  2017: $1.440244 MILLION
+  2018: $1.362939 MILLION
+  2019: $1.522648 MILLION
+  2020: $1.535043 MILLION
 ```
 
 What about the `get_id` and `get_spending`?  Print the documentation
@@ -331,7 +333,7 @@ As you may have noticed, each department has an ID and a name.
 `get_id` looks up an ID given a name.  Try a few uses:
 
 * `project.get_id("mayor")` (looks up ID of major agency, which should be 2)
-* `project.get_spending(2, 2015)` (looks up spending of agency 2 in 2015, which should be 1.44024423)
+* `project.get_spending(2, 2017)` (looks up spending of agency 2 in 2017, which should be 1.44024423)
 * `project.get_spending(project.get_id("mayor"), 2015)` (looks up spending of mayor agency in 2015; mayor agency has ID 2)
 * `project.get_spending(project.get_id("mayor"))` (looks up spending of mayor agency in 2018, the default year argument)
 
