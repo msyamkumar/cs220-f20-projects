@@ -192,7 +192,9 @@ Note the default arguments above.
 
 ### Q11: Which agency has the maximum overall spending from 2018 to 2020?
 
-In this question, you just need to invoke the provided function `max_spending_agency(start_year, end_year)` function. Hint: Think about whether you need to pass arguments - read the above function definition line.
+In this question, you just need to invoke the provided function `max_spending_agency(start_year, end_year)` function. 
+
+Hint: Think about whether you need to pass arguments - read the above function definition line.
 
 <!--In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. If you are not using the function, feel free to use print() or any method to see the values for each agency while finding the answer. However, please (1) **remove all the print() in the answer block** (2) **code the answer at the last line without printing them**.-->
 
