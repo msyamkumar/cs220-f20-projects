@@ -175,7 +175,7 @@ to `1.195455545247126 `.
 
 ### Function 4: `max_spending_agency(start_year, end_year)`
 
-This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`. **This function implementation is provided to you. You just need to figure out how to invoke the function.** The provided function uses the concepts of loop, lists, and tuples - none of those concepts are covered yet.
+This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`. **This function implementation is provided to you. You just need to figure out how to invoke the function.** The provided function uses the concepts of loop, lists, conditionals, and tuples - none of those concepts are covered yet.
 
 ```python
 def max_spending_agency(start_year=2018, end_year=2020):
