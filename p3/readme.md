@@ -4,9 +4,10 @@
 
 </h2>
 
-* Sep 16: to make q10 clearer, modified the description. 
+* Sep 16: Modified q10's description, to make it clearer.
 
-* Sep 16: set function4 as optional.
+* Sep 16: Provided implementation for "Function 4". Just invoke the provided funciton to
+          answer #q11 and #q12.
 
 # Project 3
 
@@ -172,44 +173,33 @@ You should answer by giving a **percentage** of the gyms spend above their avera
 percent sign.  In this case, your code should produce a number close
 to `1.195455545247126 `.
 
-### (**Optional**) Function 4: `max_spending_agency(start_year, end_year)`
+### Function 4: `max_spending_agency(start_year, end_year)`
 
-This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`. **You are not required to complete this function because it need the knowledge of loop.**
-
-You can start from the following code:
+This function returns the agency that has the maximum overall spending over the period from `start_year` to `end_year`. **This function implementation is provided to you. You just need to figure out how to invoke the function.** The provided function uses the concepts of loop, lists, and tuples - none of those concepts are covered yet.
 
 ```python
 def max_spending_agency(start_year=2018, end_year=2020):
-     pass # TODO: replace this line with your code
+    max_agency = (None, None)
+    for agency in ["governments", "gyms", "restaurants", "schools", "stores"]:
+        _sum = sum([project.get_spending(project.get_id(agency), year=year) for year in range(start_year, end_year+1)])
+        max_agency = (agency, _sum) if (max_agency == (None, None) or max_agency[1] < _sum) else max_agency
+    
+    return max_agency[0]
 ```
 
-Python requires all functions to have at least one line of code.  When
-you don't have some code, yet, it's common for that line to be `pass`,
-which does nothing.  Note the default arguments above.
+Note the default arguments above.
 
 
 ### Q11: Which agency has the maximum overall spending from 2018 to 2020?
 
-In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. If you are not using the function, feel free to use print() or any method to see the values for each agency while finding the answer. However, please (1) **remove all the print() in the answer block** (2) **code the answer at the last line without printing them**.
+In this question, you just need to invoke the provided function `max_spending_agency(start_year, end_year)` function. Hint: Think about whether you need to pass arguments - read the above function definition line.
 
-Here is the example for the answer block:
-```python
-#Q11
-# some codes to obtain maximum overall spending for each agency
-sum_governments = ...
-sum_gyms = ...
-sum_restaurants = ...
-sum_stores = ...
-sum_schools = ...
-
-# leave the answer as a string at the last line of the block
-# e.g. if gyms is the max value among 5 agencies, then leave "gym" here
-"gyms"
-```
+<!--In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. If you are not using the function, feel free to use print() or any method to see the values for each agency while finding the answer. However, please (1) **remove all the print() in the answer block** (2) **code the answer at the last line without printing them**.-->
 
 ### Q12: Which agency has the maximum overall spending from 2017 to 2019?
 
-In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. 
+In this question, you just need to invoke the provided function `max_spending_agency(start_year, end_year)` function.
+<!--In this question, feel free to manually code it without using the function `max_spending_agency(start_year, end_year)`. -->
 
 
 ### Function 5: `change_per_year(agency, start_year, end_year)`
