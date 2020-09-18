@@ -334,7 +334,7 @@ As you may have noticed, each department has an ID and a name.
 
 * `project.get_id("mayor")` (looks up ID of major agency, which should be 2)
 * `project.get_spending(2, 2017)` (looks up spending of agency 2 in 2017, which should be 1.44024423)
-* `project.get_spending(project.get_id("mayor"), 2015)` (looks up spending of mayor agency in 2015; mayor agency has ID 2)
+* `project.get_spending(project.get_id("mayor"), 2017)` (looks up spending of mayor agency in 2015; mayor agency has ID 2)
 * `project.get_spending(project.get_id("mayor"))` (looks up spending of mayor agency in 2018, the default year argument)
 
 Try switching back to the madison.csv dataset (with
