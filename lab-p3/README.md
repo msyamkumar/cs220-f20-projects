@@ -339,7 +339,7 @@ As you may have noticed, each department has an ID and a name.
 
 Try switching back to the madison.csv dataset (with
 `project.init("madison.csv")`) and see if you can lookup spending on
-parks in 2018.
+stores in 2018.
 
 You should also experiment with the three ways to initialize parameters:
 * `project.get_spending(12, 2018)` (positional argument for year)
