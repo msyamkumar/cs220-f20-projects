@@ -342,9 +342,9 @@ Try switching back to the madison.csv dataset (with
 stores in 2018.
 
 You should also experiment with the three ways to initialize parameters:
-* `project.get_spending(12, 2018)` (positional argument for year)
-* `project.get_spending(12, year=2018)` (positional argument for year)
-* `project.get_spending(12)` (default argument for year)
+* `project.get_spending(122, 2018)` (positional argument for year)
+* `project.get_spending(122, year=2018)` (positional argument for year)
+* `project.get_spending(122)` (default argument for year)
 
 Finally, you should try some commands that will fail and note the
 kinds of errors produced:
