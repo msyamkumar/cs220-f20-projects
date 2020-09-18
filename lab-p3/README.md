@@ -217,7 +217,7 @@ Let's check out the `project.py` API you'll use for P3:
 ['__DictReader', '__agency_to_id', '__builtins__', '__cached__', '__data', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'dump', 'get_id', 'get_spending', 'init']
 ```
 
-We see there are three functions here (ignoring the things beginning with two underscores):
+We see there are four functions here (ignoring the things beginning with two underscores):
 * dump
 * get_id
 * get_spending
