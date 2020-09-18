@@ -43,7 +43,7 @@ that person must be your project partner until the next project; you
 are not allowed to start working on P3 with one person during lab,
 then finish the project with a different partner.  Now may be a good
 time to review [our course
-policies](https://www.msyamkumar.com/cs220/s20/syllabus.html).
+policies](https://www.msyamkumar.com/cs220/f20/syllabus.html).
 
 ## Setup
 
