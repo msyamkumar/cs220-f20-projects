@@ -235,7 +235,7 @@ This restriction however, is a little too harsh. We can assume that Pokémon who
 type (Type 1 or Type 2) is `Flying` can reach other regions by flying there.
 
 Modify `final_battle` so that even if the two Pokémon are from different regions, if the
-Type 1 **or** Type 2 of the Attacker is 'Flying', then the battle can
+Type 1 **or** Type 2 of either pokemon is 'Flying', then the battle can
 take place as before.
 
 ### Q20: What is the output of `final_battle('Starly', 'Goodra')`?
