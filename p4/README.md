@@ -25,6 +25,8 @@ need to put a comment in the cell so we know what you're answering.
 For example, if you're answering question 13, the first line of your
 cell should contain `#q13`.
 
+In this project, you will have to write several functions and keep adding more details to them according to the instructions. When you are adding more things in your functions, **we want you to follow the Good Coding Style for Functions** described in [Lab P4](https://github.com/msyamkumar/cs220-f20-projects/tree/master/lab-p4). Therefore, you should only keep the latest version of your functions in your notebook file. For example, in P4 you are asked to write 5 functions(`simple_battle`, `most_damage`, `num_hits`, `battle`, and `final_battle`), so there should only be the latest version of these 5 functions in your submitted notebook file.
+
 ## Questions and Functions
 
 For the first few questions, we will try to simulate a very simple 'battle'.
