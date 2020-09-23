@@ -158,4 +158,9 @@ def same_types(pkmn1, pkmn2):
             
     return False
 ```
+
+## Good Coding Style for Functions
+
+When we are trying to design a function, we want to make sure that only the latest version for that function exists in our code. For example, in the previous section, we introduce the original version for `same_types(pkmn1, pkmn2)`, where the conditional expressions need some modifications. Instead of copying and pasting the original function, what we could do is to make changes in the original function and rerun it. In this way, there won't be multiple `same_types(pkmn1, pkmn2)` functions and it is easier to maintain your code.
+
 You can now get started with P4. You can use any helper function that you have created here in P4. Good luck and have fun!
