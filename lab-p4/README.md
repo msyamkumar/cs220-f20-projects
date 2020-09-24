@@ -11,7 +11,7 @@ Find any issues? Report to us: CHENG-WEI LU <clu232@wisc.edu>, TIMOTHY OSSOWSKI 
 
 ## Learning the API
 
-First download [`project.py`](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p4/project.py) and [`pokemon_stats.csv`](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p4/pokemon_stats.csv) to a `lab4` directory. All the data that we need for P4 is stored in `pokemon_stats.csv`. Open it with Microsoft Excel or any other Spreadsheet software, and take a look at it. You will see a list of Pokémon along with certain statistics for each of those Pokémon. Each Pokémon comes from a certain 'Region', and has one or two 'Types'. A Pokémon with only one Type has 'None' as its value for 'Type 2'. Moreover, each Pokémon has six other statistics, namely:
+First click [`project.py`](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p4/project.py) and [`pokemon_stats.csv`](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p4/pokemon_stats.csv) to download files to a `lab4` directory. All the data that we need for P4 is stored in `pokemon_stats.csv`. Open it with Microsoft Excel or any other Spreadsheet software, and take a look at it. You will see a list of Pokémon along with certain statistics for each of those Pokémon. Each Pokémon comes from a certain 'Region', and has one or two 'Types'. A Pokémon with only one Type has 'None' as its value for 'Type 2'. Moreover, each Pokémon has six other statistics, namely:
 
 1. HP (short for Hit Points)
 2. Attack (short for Physical Attack)
