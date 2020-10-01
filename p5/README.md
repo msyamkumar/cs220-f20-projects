@@ -1,10 +1,8 @@
 # Project 5: Hurricane Study
-<!-- ## Under Construction. Dont start working on it before release -->
-
 
 ## Corrections/Clarifications
 
-None yet.
+October 1st: provide a frame of code for `#q19` and `#q20`.	
 
 **Find any issues?** Report to us: VINAY SAHADEVAPPA BANAKAR <vin@cs.wisc.edu>, ZACHARY JOHN BAKLUND <baklund@wisc.edu>, LIANG SHANG <lshang6@wisc.edu>.
 
@@ -74,6 +72,8 @@ for i in range(project.count()):
         number_of_uniq_deaths.append(???) 
 len(number_of_uniq_deaths)
 ```
+
+You can also answer this question in your own way without using the code we provide.
 
 ### Q6: What is the name of the fastest hurricane?
 
@@ -178,6 +178,8 @@ for i in range(project.count()):
 len(year_list)
 ```
 
+You can also answer this question in your own way without using the code we provide.
+
 ### Q20: How many years in the history experienced a hurricane that was faster than 150 mph?
 
 Pleas copy the following code to the `#q20` cell and reaplce the `???` with your code to answer this question.
@@ -190,5 +192,7 @@ for i in range(project.count()):
         year_list.append(year)
 len(year_list)
 ```
+
+You can also answer this question in your own way without using the code we provide.
 
 ### Good luck with your hurricanes project! :)
