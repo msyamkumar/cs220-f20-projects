@@ -64,7 +64,7 @@ Write your code such that it counts all the variants (e.g., "Florence",
 
 ### Q5: What is the number of unique deaths in the dataset?
 
-Pleas copy the following code to the `#q5`cell and reaplce the `???` with your code to get the `number_of_death` of the ith record.		
+Pleas copy the following code to the `#q5`  cell and reaplce the `???` with your code to get the `number_of_death` of the ith record.		
 
 ```
 number_of_uniq_deaths = [] 
@@ -74,7 +74,6 @@ for i in range(project.count()):
         number_of_uniq_deaths.append(???) 
 len(number_of_uniq_deaths)
 ```
-But you can also answer this question in your own way without using the code we provide you.
 
 ### Q6: What is the name of the fastest hurricane?
 
@@ -168,6 +167,28 @@ Please answer with an integer. If there is a tie, answer with the smaller one. F
 
 ### Q19: How many years in the history experienced a hurricane that caused more than 1000 in deaths?
 
+Pleas copy the following code to the `#q19` cell and reaplce the `???` with your code to answer this question.
+
+```
+year_list = []
+for i in range(project.count()):
+    year = ??? # get the year this hurricane formed
+    if ??? and (not year in year_list): # check whether this hurricane caused more than 1000 deaths
+        year_list.append(year) 
+len(year_list)
+```
+
 ### Q20: How many years in the history experienced a hurricane that was faster than 150 mph?
+
+Pleas copy the following code to the `#q20` cell and reaplce the `???` with your code to answer this question.
+
+```
+year_list = []
+for i in range(project.count()):
+    year = ??? # get the year this hurricane formed
+    if ??? and (not year in year_list): # check whether this hurricane is faster than 150 mph
+        year_list.append(year)
+len(year_list)
+```
 
 ### Good luck with your hurricanes project! :)
