@@ -71,7 +71,7 @@ number_of_uniq_deaths = []
 for i in range(project.count()):
 # add this number to record if there is no duplicate
     if not project.get_deaths(i) in number_of_uniq_deaths: 
-    number_of_uniq_deaths.append(???) 
+        number_of_uniq_deaths.append(???) 
 len(number_of_uniq_deaths)
 ```
 
