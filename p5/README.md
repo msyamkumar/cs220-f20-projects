@@ -64,12 +64,12 @@ Write your code such that it counts all the variants (e.g., "Florence",
 
 Pleas copy the following code to the `#q5`  cell and reaplce the `???` with your code to get the `number_of_death` of the ith record.		
 
-```
+```python
 number_of_uniq_deaths = [] 
 for i in range(project.count()):
 # add this number to record if there is no duplicate
     if not project.get_deaths(i) in number_of_uniq_deaths: 
-        number_of_uniq_deaths.append(???) 
+        number_of_uniq_deaths.append(???) # TODO: get the number_of_death of that hurricane
 len(number_of_uniq_deaths)
 ```
 
@@ -169,11 +169,11 @@ Please answer with an integer. If there is a tie, answer with the smaller one. F
 
 Pleas copy the following code to the `#q19` cell and reaplce the `???` with your code to answer this question.
 
-```
+```python
 year_list = []
 for i in range(project.count()):
-    year = ??? # get the year this hurricane formed
-    if ??? and (not year in year_list): # check whether this hurricane caused more than 1000 deaths
+    year = ??? # TODO: get the year this hurricane formed
+    if ??? and (not year in year_list): # TODO: check whether this hurricane caused more than 1000 deaths
         year_list.append(year) 
 len(year_list)
 ```
@@ -184,11 +184,11 @@ You can also answer this question in your own way without using the code we prov
 
 Pleas copy the following code to the `#q20` cell and reaplce the `???` with your code to answer this question.
 
-```
+```python
 year_list = []
 for i in range(project.count()):
-    year = ??? # get the year this hurricane formed
-    if ??? and (not year in year_list): # check whether this hurricane is faster than 150 mph
+    year = ??? # TODO: get the year this hurricane formed
+    if ??? and (not year in year_list): # TODO: check whether this hurricane is faster than 150 mph
         year_list.append(year)
 len(year_list)
 ```
