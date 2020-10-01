@@ -70,8 +70,8 @@ Pleas copy the following code to the `#q5`cell and reaplce the `???` with your c
 number_of_uniq_deaths = [] 
 for i in range(project.count()):
 # add this number to record if there is no duplicate
-	  if not project.get_deaths(i) in number_of_uniq_deaths: 
-    	  number_of_uniq_deaths.append(???) 
+	if not project.get_deaths(i) in number_of_uniq_deaths: 
+  number_of_uniq_deaths.append(???) 
 len(number_of_uniq_deaths)
 ```
 
