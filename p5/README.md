@@ -64,7 +64,16 @@ Write your code such that it counts all the variants (e.g., "Florence",
 
 ### Q5: What is the number of unique deaths in the dataset?
 
-Pleas answer this question with a list. Remember to remove all th duplicates.
+Pleas copy the following code to the `#q5`cell and reaplce the `???` with your code to get the `number_of_death` of the ith record.		
+
+```
+number_of_uniq_deaths = [] 
+for i in range(project.count()):
+# add this number to record if there is no duplicate
+	  if not project.get_deaths(i) in number_of_uniq_deaths: 
+    	  number_of_uniq_deaths.append(???) 
+len(number_of_uniq_deaths)
+```
 
 ### Q6: What is the name of the fastest hurricane?
 
