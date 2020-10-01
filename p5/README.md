@@ -74,6 +74,7 @@ for i in range(project.count()):
         number_of_uniq_deaths.append(???) 
 len(number_of_uniq_deaths)
 ```
+But you can also answer this question in your own way without using the code we provide you.
 
 ### Q6: What is the name of the fastest hurricane?
 
