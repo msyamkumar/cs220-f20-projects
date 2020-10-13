@@ -1,0 +1,102 @@
+ID,Name,Age,Height(cm),Weight(kg),Nationality,Club,Value,Wage,Player_Position,Preferred_Foot,Body_Type,Stamina
+158023,L. Messi,32,170,72,Argentina,FC Barcelona,95500000,565000,RW,Left,Messi,75
+20801,Cristiano Ronaldo,34,187,83,Portugal,Juventus,58500000,405000,ST,Right,C. Ronaldo,85
+190871,Neymar Jr,27,175,68,Brazil,Paris Saint-Germain,105500000,290000,LW,Right,Neymar,81
+200389,J. Oblak,26,188,87,Slovenia,Atlético Madrid,77500000,125000,GK,Right,Normal,41
+183277,E. Hazard,28,175,74,Belgium,Real Madrid,90000000,470000,LW,Right,Normal,84
+192985,K. De Bruyne,28,181,70,Belgium,Manchester City,90000000,370000,CAM,Right,Normal,89
+192448,M. ter Stegen,27,187,85,Germany,FC Barcelona,67500000,250000,GK,Right,Normal,35
+203376,V. van Dijk,27,193,92,Netherlands,Liverpool,78000000,200000,CB,Right,Normal,75
+177003,L. Modrić,33,172,66,Croatia,Real Madrid,45000000,340000,CM,Right,Lean,85
+209331,M. Salah,27,175,71,Egypt,Liverpool,80500000,240000,RW,Left,PLAYER_BODY_TYPE_25,85
+231747,K. Mbappé,20,178,73,France,Paris Saint-Germain,93500000,155000,ST,Right,Normal,84
+201024,K. Koulibaly,28,187,89,Senegal,Napoli,67500000,150000,CB,Right,Normal,73
+202126,H. Kane,25,188,89,England,Tottenham Hotspur,83000000,220000,ST,Right,Normal,87
+212831,Alisson,26,191,91,Brazil,Liverpool,58000000,155000,GK,Right,Normal,32
+193080,De Gea,28,192,82,Spain,Manchester United,56000000,205000,GK,Right,Lean,43
+215914,N. Kanté,28,168,72,France,Chelsea,66000000,235000,CDM,Right,Normal,97
+138956,G. Chiellini,34,187,85,Italy,Juventus,24500000,215000,CB,Left,Normal,59
+153079,S. Agüero,31,173,70,Argentina,Manchester City,60000000,300000,ST,Right,Stocky,79
+155862,Sergio Ramos,33,184,82,Spain,Real Madrid,31500000,300000,CB,Right,Normal,80
+176580,L. Suárez,32,182,86,Uruguay,FC Barcelona,53000000,355000,ST,Right,Normal,82
+188545,R. Lewandowski,30,184,80,Poland,FC Bayern München,64500000,235000,ST,Right,Normal,78
+189511,Sergio Busquets,30,189,76,Spain,FC Barcelona,55000000,300000,CDM,Right,Lean,86
+194765,A. Griezmann,28,176,73,France,FC Barcelona,69000000,370000,CF,Left,Normal,87
+211110,P. Dybala,25,177,75,Argentina,Juventus,76500000,215000,CAM,Left,Normal,79
+195864,P. Pogba,26,191,84,France,Manchester United,72500000,250000,CM,Right,Normal,87
+210257,Ederson,25,188,86,Brazil,Manchester City,54500000,185000,GK,Left,Normal,41
+202652,R. Sterling,24,170,69,England,Manchester City,73000000,255000,RW,Right,Lean,79
+190460,C. Eriksen,27,181,76,Denmark,Tottenham Hotspur,68000000,205000,CAM,Right,Lean,93
+192119,T. Courtois,27,199,96,Belgium,Real Madrid,48000000,235000,GK,Left,Courtois,38
+152729,Piqué,32,194,85,Spain,FC Barcelona,38000000,285000,CB,Right,Normal,70
+162835,S. Handanovič,34,193,92,Slovenia,Inter,26000000,110000,GK,Right,Normal,41
+167495,M. Neuer,33,193,92,Germany,FC Bayern München,32000000,155000,GK,Right,Normal,43
+167948,H. Lloris,32,188,82,France,Tottenham Hotspur,36000000,150000,GK,Left,Lean,41
+168542,David Silva,33,173,67,Spain,Manchester City,36000000,265000,CAM,Left,Normal,73
+179813,E. Cavani,32,185,77,Uruguay,Paris Saint-Germain,47000000,195000,ST,Right,Lean,91
+182493,D. Godín,33,187,78,Uruguay,Inter,28000000,135000,CB,Right,Lean,65
+182521,T. Kroos,29,183,76,Germany,Real Madrid,57000000,330000,CM,Right,Normal,74
+188350,M. Reus,30,180,71,Germany,Borussia Dortmund,56000000,170000,CAM,Right,Lean,76
+188567,P. Aubameyang,30,187,80,Gabon,Arsenal,57000000,205000,ST,Right,Lean,78
+208722,S. Mané,27,175,69,Senegal,Liverpool,62000000,220000,LW,Right,Normal,85
+212218,A. Laporte,25,189,85,France,Manchester City,56500000,195000,CB,Left,Normal,78
+218667,Bernardo Silva,24,173,64,Portugal,Manchester City,64000000,210000,RW,Left,Lean,93
+200145,Casemiro,27,185,84,Brazil,Real Madrid,53500000,240000,CDM,Right,Normal,88
+200104,H. Son,26,183,78,Korea Republic,Tottenham Hotspur,60000000,185000,CF,Right,Lean,87
+135507,Fernandinho,34,179,67,Brazil,Manchester City,19500000,200000,CDM,Right,Lean,79
+164240,Thiago Silva,34,183,82,Brazil,Paris Saint-Germain,18500000,135000,CB,Right,Normal,71
+165153,K. Benzema,31,185,81,France,Real Madrid,45000000,285000,CF,Right,Normal,79
+172871,J. Vertonghen,32,189,86,Belgium,Tottenham Hotspur,32500000,155000,CB,Left,Normal,75
+175943,D. Mertens,32,169,61,Belgium,Napoli,40000000,135000,CF,Right,Normal,73
+178603,M. Hummels,30,191,94,Germany,Borussia Dortmund,41000000,130000,CB,Right,Normal,65
+184087,T. Alderweireld,30,186,81,Belgium,Tottenham Hotspur,41000000,155000,CB,Right,Normal,78
+189332,Jordi Alba,30,170,68,Spain,FC Barcelona,40000000,240000,LB,Left,Normal,92
+189509,Thiago,28,174,70,Spain,FC Bayern München,50000000,180000,CM,Right,Normal,75
+193041,K. Navas,32,185,80,Costa Rica,Real Madrid,30500000,195000,GK,Right,Normal,39
+198219,L. Insigne,28,163,59,Italy,Napoli,52000000,140000,CF,Right,Normal,72
+222492,L. Sané,23,183,75,Germany,Manchester City,61000000,195000,LW,Left,Lean,78
+207865,Marquinhos,25,183,75,Brazil,Paris Saint-Germain,51500000,120000,CB,Right,Normal,76
+232363,M. Škriniar,24,187,80,Slovakia,Inter,52000000,89000,CB,Right,Normal,75
+199556,M. Verratti,26,165,60,Italy,Paris Saint-Germain,54500000,140000,CM,Right,Normal,77
+205600,S. Umtiti,25,182,75,France,FC Barcelona,50000000,210000,CB,Left,Normal,71
+186153,W. Szczęsny,29,195,90,Poland,Juventus,37500000,135000,GK,Right,Lean,45
+212622,J. Kimmich,24,176,73,Germany,FC Bayern München,48000000,125000,RB,Right,Lean,94
+197781,Isco,27,176,79,Spain,Real Madrid,51000000,245000,CAM,Right,Normal,62
+201942,Roberto Firmino,27,181,76,Brazil,Liverpool,52000000,170000,CF,Right,Lean,88
+168651,I. Rakitić,31,184,78,Croatia,FC Barcelona,38000000,245000,CM,Right,Lean,79
+180206,M. Pjanić,29,178,72,Bosnia Herzegovina,Juventus,42500000,180000,CM,Right,Normal,79
+183898,A. Di María,31,180,69,Argentina,Paris Saint-Germain,39000000,150000,RW,Left,Lean,78
+184344,L. Bonucci,32,190,85,Italy,Juventus,28500000,160000,CB,Right,Lean,68
+189242,Coutinho,27,172,68,Brazil,FC Bayern München,46500000,175000,LW,Right,Normal,76
+189513,Parejo,30,182,74,Spain,Valencia CF,41000000,69000,CM,Right,Lean,76
+189596,T. Müller,29,186,75,Germany,FC Bayern München,43500000,170000,CAM,Right,Lean,86
+192387,C. Immobile,29,185,85,Italy,Lazio,44500000,105000,ST,Right,Normal,79
+193301,A. Lacazette,28,175,73,France,Arsenal,46000000,165000,ST,Right,Normal,79
+235243,M. de Ligt,19,189,89,Netherlands,Juventus,50000000,76000,CB,Right,Normal,77
+230621,G. Donnarumma,20,196,90,Italy,Milan,41500000,34000,GK,Right,Normal,34
+228702,F. de Jong,22,180,74,Netherlands,FC Barcelona,52000000,195000,CM,Right,Lean,82
+201535,R. Varane,26,191,81,France,Real Madrid,45000000,205000,CB,Right,Lean,72
+212190,N. Süle,23,195,97,Germany,FC Bayern München,46500000,115000,CB,Right,Stocky,66
+223848,S. Milinković-Savić,24,191,76,Serbia,Lazio,50500000,73000,CM,Right,Normal,85
+231866,Rodri,23,191,82,Spain,Manchester City,47000000,150000,CDM,Right,Lean,84
+208421,Saúl,24,184,77,Spain,Atlético Madrid,49500000,77000,CM,Left,Lean,87
+209499,Fabinho,25,188,78,Brazil,Liverpool,45000000,125000,CDM,Right,Lean,88
+216267,A. Robertson,25,178,64,Scotland,Liverpool,43500000,125000,LB,Left,Lean,94
+216460,J. Giménez,24,185,80,Uruguay,Atlético Madrid,45000000,69000,CB,Right,Normal,64
+220440,C. Lenglet,24,186,81,France,FC Barcelona,45000000,175000,CB,Left,Lean,75
+212198,Bruno Fernandes,24,179,69,Portugal,Sporting CP,49000000,24000,CAM,Right,Lean,92
+199482,A. Lopes,28,184,81,Portugal,Olympique Lyonnais,33500000,88000,GK,Left,Normal,36
+185122,P. Gulácsi,29,192,86,Hungary,RB Leipzig,31000000,69000,GK,Right,Normal,35
+189117,R. Bürki,28,187,85,Switzerland,Borussia Dortmund,32000000,92000,GK,Right,Normal,36
+192505,R. Lukaku,26,190,94,Belgium,Inter,46000000,115000,ST,Left,Stocky,75
+192774,K. Manolas,28,189,83,Greece,Napoli,37500000,105000,CB,Right,Normal,72
+194404,Neto,29,190,84,Brazil,FC Barcelona,31000000,175000,GK,Right,Lean,41
+197445,D. Alaba,27,180,78,Austria,FC Bayern München,38000000,135000,LB,Left,Lean,85
+201399,M. Icardi,26,181,75,Argentina,Inter,46000000,115000,ST,Right,Normal,67
+204963,Carvajal,27,173,73,Spain,Real Madrid,38000000,205000,RB,Right,Stocky,90
+208670,H. Ziyech,26,181,65,Morocco,Ajax,45000000,39000,CAM,Left,Lean,84
+41236,Z. Ibrahimović,37,195,95,Sweden,LA Galaxy,14000000,15000,ST,Right,Normal,59
+143076,A. Gómez,31,165,68,Argentina,Atalanta,34000000,92000,CAM,Right,Normal,70
+167664,G. Higuaín,31,186,89,Argentina,Juventus,34500000,175000,ST,Right,Normal,60
+170890,B. Matuidi,32,180,75,France,Juventus,25000000,145000,CDM,Left,Lean,90
+173731,G. Bale,29,185,82,Wales,Real Madrid,37500000,250000,RW,Left,Lean,73
