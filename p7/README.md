@@ -6,15 +6,19 @@ None yet.
 
 **Find any issues?** Report to us, SAYALI ANIL ALATKAR <alatkar@wisc.edu>  LIANG SHANG <lshang6@wisc.edu>, ALVIN (YIFEI) MING <ming5@wisc.edu>.
 
+<h2>Learing objectives </h2>
 
-## Intro
-
-Let's play Fifa20, Python style!  In this project, you will get more practice with lists and start using dictionaries.  Start by downloading `test.py` and `Fifa20.csv` (which was adapted from [this dataset](https://www.kaggle.com/stefanoleone992/fifa-20-complete-player-dataset#players_20.csv)). This dataset is too large to preview on GitHub (>18K rows), but you can view the [raw version](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p7/Fifa20.csv) or using a program such as [Excel](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p7/excel.md). You can also preview an example with 100 rows [here](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p7/preview.csv). For this project, you'll create a new `main.ipynb` and answer questions in the usual format. **Please go through the [lab-p7](https://github.com/msyamkumar/cs220-f20-projects/tree/master/lab-p7) before working on this project.** The lab will help you to make helper functions and introduce some useful techniques related to this project. In this project, you will
+ In this project, you will
 
 * learn how to use dictionaries to answer questions about provided data;
 * gain more experience with using lists in Python;
-*  learn how to write programs to interpret data present in csv files;
-*  **develop good coding styling habits (points may be deducted for bad coding styles)**.
+* learn how to write programs to interpret data present in csv files;
+* **develop good coding styling habits (points may be deducted for bad coding styles)**.
+
+
+## Intro
+
+Let's play Fifa20, Python style!  In this project, you will get more practice with lists and start using dictionaries.  Start by downloading `test.py` and `Fifa20.csv` (which was adapted from [this dataset](https://www.kaggle.com/stefanoleone992/fifa-20-complete-player-dataset#players_20.csv)). This dataset is too large to preview on GitHub (>18K rows), but you can view the [raw version](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p7/Fifa20.csv) or using a program such as [Excel](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p7/excel.md). You can also preview an example with 100 rows [here](https://github.com/msyamkumar/cs220-f20-projects/blob/master/p7/preview.csv). For this project, you'll create a new `main.ipynb` and answer questions in the usual format. **Please go through the [lab-p7](https://github.com/msyamkumar/cs220-f20-projects/tree/master/lab-p7) before working on this project.** The lab will help you to make helper functions and introduce some useful techniques related to this project.
 
 <h2> Coding style requirements</h2>
 
