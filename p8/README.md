@@ -2,6 +2,8 @@
 
 ## Clarifications/Corrections
 
+* October 23rd: make the requirements of q15 more clear.
+
 **Find any issues?** Report to us:  
 - Yifei Ming [ming5@wisc.edu](mailto:ming5@wisc.edu)
 - Changho Shin [cshin23@wisc.edu](mailto:cshin23@wisc.edu)
@@ -352,7 +354,13 @@ Requirements:
 
 #### Q15: What are the movies from 1970 with ratings greater than 7.0?
 
-**Hint:** we've set you up a bit to encounter a bug.  Review the copy functions in the `copy` module and see if you can use one of them to overcome the shortcomings of the `filter_movies_by_year` function we're forcing you to use.  You might need to go back and tweak your q14 answer and potentially do a "Restart & Run All" on your notebook after you've fixed the bug.
+**Hint:** we've set you up a bit to encounter a bug.  Review the copy functions in the `copy` module and see if you can use one of them to overcome the shortcomings of the `filter_movies_by_year` function we're forcing you to use. You can call one of the copy functions outside of the  `filter_movies_by_year` function to copy the dataset. You might need to go back and tweak your q14 answer and potentially do a "Restart & Run All" on your notebook after you've fixed the bug.
+
+Requirements:
+
+1. answer using `filter_movies_by_year`
+2. do NOT call `get_movies` on "movies.csv" more than once in your notebook
+3. do NOT change `filter_movies_by_year`
 
 Return a list of movie dictionaries.
 
