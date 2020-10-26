@@ -222,7 +222,7 @@ small = get_movies("small_movies.csv", "small_mapping.csv")
 
 #### Q8: What is `small`?
 
-The result should have the same format as :
+The result should have the same **format** as :
 
 ```python
 [{'title': 'Runaway Jury',
@@ -266,7 +266,7 @@ instead, which is more efficient. We will deduct points for bad coding style.
 
 #### Q12: What are the 88th to 90th (inclusive) rows in movies?
 
-Please return a list of dictionaries whose format is like this:
+Please return a list of dictionaries whose **format** is like this:
 
 ```python
 [{'title': 'Fortitude and Glory: Angelo Dundee and His Fighters',
@@ -295,7 +295,7 @@ Please return a list of dictionaries whose format is like this:
 
 #### Q13: What are the last 5 rows in movies?
 
-Please return a list of dictionaries whose format is like this:
+Please return a list of dictionaries whose **format** is like this:
 
 ```python
 [{'title': 'Fortitude and Glory: Angelo Dundee and His Fighters',
