@@ -2,7 +2,10 @@
 
 ## Clarifications/Corrections
 
+* October 28th: modified the code under introduction section. Moved the comment after `%matplotlib inline ` to the top.
+
 **Find any issues?** Report to us:  
+
 - Tim Ossowski [ossowski@wisc.edu](mailto:ossowski@wisc.edu)
 - Changho Shin [cshin23@wisc.edu](mailto:cshin23@wisc.edu)
 - Vinay Sahadevappa Banakar [vin@wisc.edu](mailto:vin@cs.wisc.edu)
@@ -41,7 +44,8 @@ import copy
 import matplotlib
 import pandas
 
-%matplotlib inline # Allows you to render matplotlib graphs in the same notebook
+# Allows you to render matplotlib graphs in the same notebook
+%matplotlib inline 
 
 def plot_dict(d, label="Please Label Me!!!"):
     ax = pandas.Series(d).sort_index().plot.bar(color="black", fontsize=16)
