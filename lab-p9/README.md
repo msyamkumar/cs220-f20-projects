@@ -365,7 +365,7 @@ def sort_factor(s):
 
 vals = ["C", "AAA", "BB"]
 print("Regular sorting:", sorted(vals))
-print("Custom sorting:", sorted(vals, key=sort_factor), reverse = True)
+print("Custom sorting:", sorted(vals, key=sort_factor, reverse = True))
 ```
 
 Can you complete the following code so that strings containing the
