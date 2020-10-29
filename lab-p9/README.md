@@ -363,7 +363,7 @@ called `reverse` to help us sort the list in descending order:
 def sort_factor(s):
     return len(s)
 
-vals = ["C", "AAA", "BB"]
+vals = ["CCCCC", "AAA", "BB"]
 print("Regular sorting:", sorted(vals))
 print("Custom sorting:", sorted(vals, key=sort_factor, reverse = True))
 ```
