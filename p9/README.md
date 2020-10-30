@@ -3,6 +3,7 @@
 ## Clarifications/Corrections
 
 * October 28th: modified the code under introduction section. Moved the comment after `%matplotlib inline ` to the top.
+* October 30th: **please don't use csv.dictReader to read a file. Using csv.dictReader will cause the autograder fail to run, and you will get 0. Use the `process_csv()` we provided in the previous projects, and write your own code to construct the dictionaries.**
 
 **Find any issues?** Report to us:  
 
