@@ -3,7 +3,8 @@
 ## Clarifications/Corrections
 
 * October 28th: modified the code under introduction section. Moved the comment after `%matplotlib inline ` to the top.
-* October 30th: **please don't use csv.dictReader to read a file. Using csv.dictReader will cause the autograder fail to run, and you will get 0. Use the `process_csv()` we provided in the previous projects, and write your own code to construct the dictionaries.**
+* October 30th: new clarification: **please don't use csv.dictReader to read a file. Using csv.dictReader will cause the autograder fail to run, and you will get 0. Use the `process_csv()` we provided in the previous projects, and write your own code to construct the dictionaries.**
+* October 31st: provide the expected count for the plotting questions for you to verify your results.
 
 **Find any issues?** Report to us:  
 
@@ -99,14 +100,35 @@ For questions 4-8, your answers should be plots. Use the `plot_dict()` function 
 
 Comments: The horizontal axis should be names of movies Tom Cruise was in. The vertical axis should be the corresponding rating of these movies. 
 
+The expected dictionary to be plotted is:
+
+```python
+{'Vanilla Sky': 6.9, 'Eyes Wide Shut': 7.4}
+```
+
 
 ### #q5 Plot the title vs rating of movies featuring "Sylvester Stallone".
 
+The expected dictionary to be plotted is:
 
+```python
+{'Tango & Cash': 6.4,
+ 'Paradise Alley': 5.8,
+ 'Avenging Angelo': 5.2,
+ 'Cop Land': 6.9,
+ 'Judge Dredd': 5.5,
+ 'Grudge Match': 6.4}
+```
 
 ### #q6 Plot the number of movies played by ["John Wayne", "Glenn Ford", "Danny Glover"].
 
 Comments: The graph should have 3 bars, one for each of these actors. The height of each bar should be the number of movies the actor played in.
+
+The expected dictionary to be plotted is:
+
+```python
+{'John Wayne': 130, 'Glenn Ford': 74, 'Danny Glover': 51}
+```
 
 ### #q7 Plot the number of movies that start with each letter of the alphabet.
 
@@ -125,6 +147,37 @@ for letter in letters:
 
 2) remember to use `.lower()`.
 
+The expected dictionary to be plotted is:
+
+```python
+{'a': 125,
+ 'b': 106,
+ 'c': 91,
+ 'd': 69,
+ 'e': 32,
+ 'f': 82,
+ 'g': 44,
+ 'h': 82,
+ 'i': 54,
+ 'j': 24,
+ 'k': 24,
+ 'l': 76,
+ 'm': 78,
+ 'n': 27,
+ 'o': 27,
+ 'p': 53,
+ 'q': 6,
+ 'r': 76,
+ 's': 159,
+ 't': 500,
+ 'u': 8,
+ 'v': 16,
+ 'w': 65,
+ 'x': 0,
+ 'y': 14,
+ 'z': 3}
+```
+
 ### #q8: Plot the number of movies there are for each genre.
 
 Comments: The graph should have 1 bar for each unique genre. The height of each bar should be the number of movies that contain that genre in its list of genres.
@@ -140,6 +193,28 @@ for movie in movies:
 
 ```
 
+The expected dictionary to be plotted is:
+
+```python
+{'Comedy': 485,
+ 'Drama': 1094,
+ 'Romance': 352,
+ 'History': 73,
+ 'Family': 85,
+ 'Mystery': 121,
+ 'Thriller': 250,
+ 'Action': 299,
+ 'Crime': 357,
+ 'Adventure': 283,
+ 'Western': 226,
+ 'Music': 38,
+ 'Animation': 45,
+ 'Sport': 48,
+ 'Fantasy': 59,
+ 'War': 99,
+ 'Sci-Fi': 69,
+ 'Horror': 85}
+```
 
 ### #q9 For each letter of the alphabet (except 'x'), what is the average rating of movies that start with that letter (case insensitive)?
 
@@ -176,6 +251,20 @@ Hint: Use a similar strategy to q8, but only include movies with rating above 4.
 ### #q12 Plot the number of movies that were released each year in the last decade (2010<= year <=2020)
 
 Comments: Your answer should be a dictionary mapping each year to a number. Note that there are only movies up to the year 2018, so the graph should not have bars for years 2019 and 2020. See [Q12.png](https://github.com/msyamkumar/cs220-f20-projects/tree/master/p9/Q12.png) for reference.
+
+The expected dictionary to be plotted is:
+
+```python
+{2013: 35,
+ 2011: 15,
+ 2017: 31,
+ 2012: 37,
+ 2016: 26,
+ 2015: 38,
+ 2014: 24,
+ 2018: 12,
+ 2010: 25}
+```
 
 
 ### #q13 Which year (or years) had the highest number of movie releases?
