@@ -3,6 +3,7 @@
 ## Clarifications/Corrections
 
 * October 23rd: make the requirements of q15 more clear.
+* November 4th: please remove the movies that contain missing values.
 
 **Find any issues?** Report to us:  
 - Yifei Ming [ming5@wisc.edu](mailto:ming5@wisc.edu)
@@ -153,7 +154,7 @@ movie as follows:
 }
 ```
 
-Note that unlike small_mapping.csv, the movie files DO have a CSV header.
+Note that unlike small_mapping.csv, the movie files DO have a CSV header. Some movies may not contain "actors" or other features. Make sure to ignore those movies.
 
 To be consistent, the values for `directors`, `actors`, and ```genres```
 are always of type LIST, even if some lists might only contain a single item. 

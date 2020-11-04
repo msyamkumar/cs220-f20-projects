@@ -5,6 +5,7 @@
 * October 28th: modified the code under introduction section. Moved the comment after `%matplotlib inline ` to the top.
 * October 30th: new clarification: **please don't use csv.dictReader to read a file. Using csv.dictReader will cause the autograder fail to run, and you will get 0. Use the `process_csv()` we provided in the previous projects, and write your own code to construct the dictionaries.**
 * October 31st: provide the expected count for the plotting questions for you to verify your results.
+* November 3rd: make sure your `movies` doesn't contain any missing value. All movies in your `movies` list should contain actors. If not, please check your `get_raw_movies` and `get_movies`.
 
 **Find any issues?** Report to us:  
 
