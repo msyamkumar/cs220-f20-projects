@@ -100,8 +100,6 @@ In order to achieve this, you need to use the `os.path.join()` function. Please 
 
 #### Question 4: What are the paths of all the files in the `full_data` directory?
 
-Filter to only include files ending in `.csv` or `.json`.
-
 To clarify, this function must do everything you did for Question 2, as well as the additional step above. 
 
 #### Question 5: What are the paths of the CSV files present in the `sample_data` directory?
