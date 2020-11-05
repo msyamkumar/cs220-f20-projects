@@ -2,7 +2,7 @@
 
 ## Clarifications/Corrections
 
-None yet.
+November 4th: modified the description of q4.
 
 **Find any issues?** Report to us:  
 
