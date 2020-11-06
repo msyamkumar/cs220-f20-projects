@@ -36,7 +36,7 @@ Remember that coding style matters! **We might deduct points for bad coding styl
 
 ## Setup
 
-**Step 1:** Download [`tweets.zip`](https://github.com/msyamkumar/cs220-f20-projects/tree/master/p10/tweets.zip ) and extract it to a directory on your computer (using [Mac directions](http://osxdaily.com/2017/11/05/how-open-zip-file-mac/) or [Windows directions](https://support.microsoft.com/en-us/help/4028088/windows-zip-and-unzip-files)).
+**Step 1:** Download [`tweets.zip`](https://github.com/msyamkumar/cs220-f20-projects/tree/master/p10/tweets.zip ) and extract it to a directory on your computer (using [Mac directions](http://osxdaily.com/2017/11/05/how-open-zip-file-mac/) or [Windows directions](https://support.microsoft.com/en-us/help/4028088/windows-zip-and-unzip-files)). 
 
 **Step 2:** Download [`test.py`](https://github.com/msyamkumar/cs220-f20-projects/tree/master/p10/test.py)  to the directory from step 1 (`test.py` be next to the `sample_data` directory, for example)
 
@@ -62,7 +62,7 @@ This data is messy!  You'll face the following challenges:
 
 * data is spread across multiple files
 * some files will be CSVs, others JSONs
-* the files may be missing values or may be too corrupt to parse
+* the files may be missing values or may be too corrupt to parse.
 * some integer values may be represented as strings with a suffix of "M", "K", or similar
 
 In p10, you'll write code to cleanup the data, representing everything as Tweet objects (you'll create a new type for these).  In p11, you'll analyze your clean data.
@@ -88,23 +88,23 @@ You may consider writing a single function to answer several questions
 (hint: things that change for different questions can often be
 represented with parameters).
 
-#### Question 1: What are the names of the files present in the `sample_data` directory?
+#### #Q1: What are the names of the files present in the `sample_data` directory?
 
 Hint: Look into the `os.listdir` function. Produce a list of file names.
 
-#### Question 2: What are the names of the files present in the `full_data` directory?
+#### #Q2: What are the names of the files present in the `full_data` directory?
 
-#### Question 3: What are the paths of all the files in the `sample_data` directory?
+#### #Q3: What are the paths of all the files in the `sample_data` directory?
 
 In order to achieve this, you need to use the `os.path.join()` function. Please do not hardcode "/" or "\\" because doing so will cause your function to fail on a computer that's not using the same operating system as yours. Again, remember to **use relative path instead of absolute path**.
 
-#### Question 4: What are the paths of all the files in the `full_data` directory?
+#### #Q4: What are the paths of all the files in the `full_data` directory?
 
-To clarify, this function must do everything you did for Question 2, as well as the additional step above. 
+To clarify, this function must do everything you did for #Q2, as well as the additional step above. 
 
-#### Question 5: What are the paths of the CSV files present in the `sample_data` directory?
+#### #Q5: What are the paths of the CSV files present in the `sample_data` directory?
 
-#### Question 6: What are the paths of the CSV and INFO files present in the `full_data` directory?
+#### #Q6: What are the paths of the CSV and INFO files present in the `full_data` directory?
 
 ----
 
@@ -136,7 +136,7 @@ and `is_retweet`.
 
 ----
 
-#### Question 7: What are the tweets present in the CSV file `1.csv` in `sample_data`?
+#### #Q7: What are the tweets present in the CSV file `1.csv` in `sample_data`?
 
 The expected output format is 
 
@@ -148,11 +148,11 @@ The expected output format is
  Tweet(tweet_id='1467812025', username='USERID_1', num_liked=8149, length=25)]
 ```
 
-#### Question 8: What are the tweets present in the CSV file `1.csv` in `full_data`?
+#### #Q8: What are the tweets present in the CSV file `1.csv` in `full_data`?
 
 Same output format as q7 is expected here.
 
-#### Question 9: What are the tweets present in the CSV file `2.csv` in `full_data`? 
+#### #Q9: What are the tweets present in the CSV file `2.csv` in `full_data`? 
 
 Same output format as q7 is expected here.
 
@@ -166,7 +166,7 @@ In short, whenever you see a row in the CSV file which does not have
 all the fields present, just skip that row and move on to the next
 one, parsing what remains.
 
-#### Question 10: What are the tweets present in the JSON file `2.json` in `sample_data`?
+#### #Q10: What are the tweets present in the JSON file `2.json` in `sample_data`?
 
 Same output format as q7 is expected here.
 
@@ -175,12 +175,7 @@ file and convert it to a list of Tweets, so that all of our data
 from different files is going into one common format that's easy for
 us to work with.
 
-The JSON files we have have the data saved as one big dictionary, with
-the keys in the dictionary being the tweet_id, and the values being a
-smaller dictionary, containing all the details of the tweet with that
-tweet_id. Feel free to open up a JSON file and take a look at it to
-get a sense of how it's structured (this is always a great first step
-when you're trying to parse data you're unfamiliar with).
+The JSON files have the data saved as one big dictionary. The keys in the dictionary are the tweet_id, and the values are a smaller dictionary, containing all the details of the tweet with that tweet_id. Feel free to open up a JSON file and take a look at it to get a sense of how it's structured (this is always a great first step when you're trying to parse data you're unfamiliar with).
 
 Your task here is to convert each JSON file to a **list of Tweet
 objects** (similar to what we did when parsing the CSVs).  Each
@@ -204,7 +199,7 @@ And here's the corresponding namedtuple:
 
 `Tweet(tweet_id='1467810369', username='USERID_4', num_liked=315, length=115)`
 
-#### Question 11: What are the tweets present in the JSON file `1.json` in `sample_data`?
+#### #Q11: What are the tweets present in the JSON file `1.json` in `sample_data`?
 
 The expected output format is:
 
@@ -216,46 +211,46 @@ The expected output format is:
  Tweet(tweet_id='1467811193', username='USERID_8', num_liked=2101, length=111)]
 ```
 
-#### Question 12: What are the tweets present in the JSON file `5.json` in `full_data`?
+#### #Q12: What are the tweets present in the JSON file `5.json` in `full_data`?
 
 Same format as q11 is expected.
 
-#### Question 13: What are the tweets present in the JSON file `4.json` in `full_data`?
+#### #Q13: What are the tweets present in the JSON file `4.json` in `full_data`?
 
 Same format as q11 is expected.
 
-Create a function whose input is textLength and returns all the tweets with a text less than textCount. Use this function in all of the remaining questions. It should read all the files in `full_data` and combine them together. **When reading files, please make sure you read them in reverse alphabetical order (see your output of q2).** If the order of your output is not consistent with our expected output, you will fail to pass the tests.
+Create a function whose input is an integer textLength that returns a list containing all the tweets with a text less than textLength. Use this function in all of the remaining questions. It should read all the files in `full_data` and combine the tweets into one list. **When reading files, please read them in reverse alphabetical order (see your output of p2).** If the order of your output is not consistent with our expected output, you will fail to pass the tests.
 
 ```python
 def tweetsLessThan(textLength):
   	#TODO: read all files in full_data and read them in an order of q2
 ```
 
-#### Question 14: Return all the tweet objects with a length less than 50 in `full_data`.
+#### #Q14: Return all the tweet objects with a length less than 50 in `full_data`.
 
 Use the function you just created to answer this question. You may encounter a `JSONDecodeError`. This is because the `1.json` file is broken. Unfortunately, unlike CSV files, broken JSON files are much more complicated to fix, so we can't just skip over one tweet and salvage the rest.  Instead, your JSON parsing function should skip any file it cannot parse using `json.load` and just return an empty list. Modify your function with `try` and `except` to skip the broken file.
 
-#### Question 15: Return a list of all the tweet objects with a length less than 30 in `full data`. 
+#### #Q15: Return a list of all the tweet objects with a length less than 30 in `full data`. 
 
-#### Question 16: Return a list of all the tweet objects with a length less than 20 in `full data `.
+#### #Q16: Return a list of all the tweet objects with a length less than 20 in `full data `.
 
-#### Question 17: Which file in the directory `sample_data` contains the tweet with tweet_id '1467812784'?
+#### #Q17: Which file in the directory `sample_data` contains the tweet with tweet_id '1467812784'?
 
 Produce the **path to the file**. 
 
 Hint: Use the functions you've written to help you accomplish this task, as it involves a combination of looking through all the files in a folder, parsing them, and then looking through the parsed list. 
 
-#### Question 18: Which file in the directory `full_data` contains the tweet with tweet_id '1467944581'?
+#### #Q18: Which file in the directory `full_data` contains the tweet with tweet_id '1467944581'?
 
 Produce the **path to the file**. 
 
-#### Question 19: Which files in the directory `full_data` contain tweets by the user "USERID_1"?
+#### #Q19: Which files in the directory `full_data` contain tweets by the user "USERID_1"?
 
 Be sure to produce a **list of paths** (even if it's just 1 path) sorted in **reverse-alphabetical order**.
 
-#### Question 20: What are the first 20 tweets present in all the files in the `full_data` directory, sorted by num_liked?
+#### #Q20: What are the first 20 tweets present in all the files in the `full_data` directory, sorted by num_liked?
 
-Produce a single **list of Tweets** of length 20 containing the first 20 tweets sorted in **descending order by num_liked**. Note, some Tweets has num_liked as String, e.g. Tweet(tweet_id='1467894593', username='USERID_2', num_liked='869M', length=136). Your code should be able to handle this kind of tweets.
+Produce a single **list of Tweets** of length 20 containing the first 20 tweets sorted in **descending order by num_liked**. Note, some Tweets has num_liked as String, e.g. Tweet(tweet_id='1467894593', username='USERID_2', num_liked='869M', length=136). And other have `num_liked` as an integer. Your code should be able to handle this kind of tweets.
 
 The first 5 tweets of the expected output are:
 
