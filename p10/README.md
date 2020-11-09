@@ -4,6 +4,8 @@
 
 November 4th: modified the description of q4.
 
+November 8th: added some hints to q10.
+
 **Find any issues?** Report to us:  
 
 - NEYANEL VASQUEZ-GARCIA vasquezgarci@wisc.edu
@@ -198,6 +200,8 @@ Here's the first tweet in the JSON file, `1.json` in `sample_data`
 And here's the corresponding namedtuple:
 
 `Tweet(tweet_id='1467810369', username='USERID_4', num_liked=315, length=115)`
+
+Besides, if there are any tweets' `num_liked` is`unknown`, just treat it as 0. But if the `num_liked` is `8k` or `342m`, you should keep its original value. You can check `q20` for reference.
 
 #### #Q11: What are the tweets present in the JSON file `1.json` in `sample_data`?
 
