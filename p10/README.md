@@ -29,7 +29,7 @@ Remember that coding style matters! **We might deduct points for bad coding styl
 - Do not write the exact same code in multiple places. Instead, wrap this code into a function and call that function whenever the code should be used.
 - Do not call unnecessary functions.
 - Avoid using slow functions multiple times within a loop.
-- Avoid inappropriate use of data structures.
+- Avoid inappropriate use of data structures. A bad example: use for loop to search for a corresponding value in a dictionary with a given key instead of use `dictname[key]` directly.
 - Don't name variables or functions as python keywords or built-in functions. Bad example: str = "23".
 - Don't define multiple functions with the same name or define multiple versions of one function with different names. Just keep the best version.
 - Put all `import` commands together at the second cell of `main.ipynb`, the first cell should be submission information (netid and etc).
