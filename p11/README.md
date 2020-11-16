@@ -310,7 +310,7 @@ Your function MAY use the following:
 * `os.path.isfile`
 * `os.path.isdir`
 
-Use your function to answer the following questions. The expected answers will have the form of (**not necessarily same**):
+Use your function to answer the following questions. An example answer will have the form of:
 
 ```python
 ['play/rb/rb9/89.csv', 'play/rb/rb9/12.xls']
