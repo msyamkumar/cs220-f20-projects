@@ -3,7 +3,7 @@
 
 ## Clarifications/Corrections
 
-None yet.
+November 16: revised the description of the q14.
 
 **Find any issues?** Report to us:  
 
@@ -310,7 +310,7 @@ Your function MAY use the following:
 * `os.path.isfile`
 * `os.path.isdir`
 
-Use your function to answer the following questions. The expected answers may look like:
+Use your function to answer the following questions. The expected answers will have the form of (**not necessarily same**):
 
 ```python
 ['play/rb/rb9/89.csv', 'play/rb/rb9/12.xls']
