@@ -5,6 +5,8 @@
 
 November 16: revised the description of the q14.
 
+November 17: added description to q9.
+
 **Find any issues?** Report to us:  
 
 - Liang Shang <lshang6@wisc.edu>
@@ -205,7 +207,7 @@ The dictionaries you will need to plot are:
 
 #### #q9: What is the username of the user represented by the outlier in the last two plots?
 
-In [statistics](https://en.wikipedia.org/wiki/Statistics), an **[outlier](https://en.wikipedia.org/wiki/Outlier)** is a [data point](https://en.wikipedia.org/wiki/Data_point) that differs significantly from other observations. **Note that you are not allowed to hardcode the index of the ourlier.**
+In [statistics](https://en.wikipedia.org/wiki/Statistics), an **[outlier](https://en.wikipedia.org/wiki/Outlier)** is a [data point](https://en.wikipedia.org/wiki/Data_point) that differs significantly from other observations. **Note that you are not allowed to hardcode the index of the ourlier.** You don't need any other statistical/mathematical knowledge to find the outlier. You don't need to write any specific algorithm. What you need to do is figure out the approximate range of this outlier from the graph you drawed, and then use `if` statement to filter out this point.
 
 #### #q10: What are the tweets made by that outlier user?
 
