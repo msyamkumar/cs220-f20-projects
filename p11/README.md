@@ -7,6 +7,8 @@ November 16: revised the description of the q14.
 
 November 17: added description to q9.
 
+November 18: modified `cleanMAC.py` to make it work properly; modified the hint in q6 to make it clearer.
+
 **Find any issues?** Report to us:  
 
 - Liang Shang <lshang6@wisc.edu>
@@ -135,7 +137,7 @@ The dictionaries you will need to plot are:
  'USERID_8': 145}
  ```
 
-Hint: you can directly put your `dict` into the scatter function from lab-p11.
+Hint: you can directly put your `dict` into the scatter function from lab-p11. The dictionary we put here is for you to check whether the data of your graph is correct. **Don't simply copy the dictionary we provide to your notebook!**
 
 Make sure to label the vertical axis with an informative name for all your graphs!
 
