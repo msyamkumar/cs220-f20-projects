@@ -1,12 +1,13 @@
 import os
-def clean():
+def clean(dir = '.'):
     """
     clean the cache in Mac OS
     """
-    for root, dirs, files in os.walk('.'):
-        for item in dirs:
-            if (item[0]!='.'):
-                try:
-                    os.remove(os.path.join(item,'.DS_Store'))
-                except:
-                    pass
+    
+    for item in os.listdir(dir):
+        path = os.path.join(dir, item)
+        if os.path.isdir(path):
+            clean(path)
+        else:
+            if '.DS_Store' in path:
+                os.remove(path)
