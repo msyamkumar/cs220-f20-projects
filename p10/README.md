@@ -115,7 +115,7 @@ For the following questions, you'll need to create a new Tweet type
 
 * tweet_id (string)
 * username (string)
-* num_liked (int)
+* num_liked (int/string)
 * length (int)
 
 Please ensure you define your namedtuple exactly according to the
