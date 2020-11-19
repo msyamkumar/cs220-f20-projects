@@ -44,12 +44,11 @@ Remember that coding style matters! **We might deduct points for bad coding styl
 
 **Step 3:** Create a `main.ipynb` in the same location.  Do all work for both stages there, and turn it in when complete.
 
-**Mac User Only**: Download [`cleanMAC.py`](https://github.com/msyamkumar/cs220-f20-projects/tree/master/p10/cleanMAC.py) in the same location. Create a new cell in your `main.ipynb` and copy the following code 
+**Step 4**: Download [`cleanMAC.py`](https://github.com/msyamkumar/cs220-f20-projects/tree/master/p10/cleanMAC.py) in the same location. Create a new cell in your `main.ipynb` and copy the following code 
 
 ```python
-# import this module if and only if your laptop is mac
 from cleanMAC import * 
-# clean the .DS_Store file in MAC
+# clean the .DS_Store file
 clean()
 ```
 
