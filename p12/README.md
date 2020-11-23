@@ -70,6 +70,8 @@ Some of the columns require a little extra explanation:
 * Literacy: (out of 100%)
 * Phones: Number of phones per 1000 people
 
+**DISCLAIMER**: This dataset has been taken from the source without any modifications. Any current information in the world affairs, including political implications haven't been represented in this dataset accurately. Please consider this as a synthetic dataset and not a real-world representation of the country information.
+
 # Testing
 
 For answers involving a DataFrame, `test.py` compares your tables to
