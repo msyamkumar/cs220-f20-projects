@@ -2,6 +2,8 @@
 
 ## Clarifications/Corrections
 
+November 23: add DISCLAMINER to the decription of the dataset. The dataset we use here has been taken from the source without any modifications. Any current information in the world affairs, including political implications haven't been represented in this dataset accurately. Please consider this as a synthetic dataset and not a real-world representation of the country information.
+
 **Find any issues?** Report to us: 
 
 - ZACHARY JOHN BAKLUND <baklund@wisc.edu>
@@ -194,6 +196,8 @@ If you decide to implement it yourself (it's fun!), here are some tips:
 #### #Q12: What is the distance between Germany and Norway?
 
 For the coordinates of a country, use its capital.
+
+DISCLAIMER: This dataset has been taken from the source without any modifications. Any current information in the world affairs, including political implications haven't been represented in this dataset accurately. Please consider this as a synthetic dataset and not a real-world representation of the country information.
 
 #### #Q13: What are the distances between Italy, United Kingdom and Germany?
 
