@@ -4,6 +4,8 @@
 
 November 23: add DISCLAMINER to the decription of the dataset. The dataset we use here has been taken from the source without any modifications. Any current information in the world affairs, including political implications haven't been represented in this dataset accurately. Please consider this as a synthetic dataset and not a real-world representation of the country information.
 
+November 25: q20: The column names should be consistent with the original `capitals.json`.
+
 **Find any issues?** Report to us: 
 
 - ZACHARY JOHN BAKLUND <baklund@wisc.edu>
@@ -293,7 +295,7 @@ Now do the following:
 * Find the table containing the data (Hint: .find() or .find_all() methods can be used).
 * Find all the rows in the table (Note: rows are inside 'tr' html tag and data is in 'td' tag).
 * Create a dictionary containing country name, capital and location coordinate and then create a list of dictionaries for all the countries.
-* **Careful!** This web page has more countries than `countries.json`. We will ignore the countries that are not in that file. You need to filter and keep only the 174 countries whose names also appear in `countries.json`.
+* **Careful!** This web page has more countries than `countries.json`. We will ignore the countries that are not in that file. You need to filter and keep only the 174 countries whose names also appear in `countries.json`. The column names should be consistent with the original `capitals.json`.
 * Save this list into file titled `my_capitals.json`. You can use json.dump() method.
 
 Your answer will be your data from your constructed `my_capitals.json` file read in using `open("my_capitals.json", "r").read()`
