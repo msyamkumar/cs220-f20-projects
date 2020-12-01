@@ -73,7 +73,7 @@ and store it in `countries.json`. Once you have created the file, create a Dataf
 
 For your final CS 220 project, you're going to continue analyzing the world using the same dataset from the last project.
 
-In this project, you'll dump your DataFrames to a SQLite database.
+In this project, you'll dump your DataFrame to a SQLite database.
 You'll answer questions by doing queries on that database.  Often,
 your answer will be in the form of a plot.  Check these carefully, as
 the tests only verify a plot has been created, not that it looks
@@ -89,7 +89,7 @@ countries.to_sql("countries", conn, if_exists="replace", index=False)
 # remember to do conn.close() at the end of your notebook
 ```
 
-If you named your DataFrames something other than `countries`, tweak the above code to use your variable names.
+If you named your DataFrame something other than `countries`, tweak the above code to use your variable names.
 
 ### Disclaimer: 
 This dataset has been taken from the source without any modifications. Any current information in world affairs, including political implications haven't been represented in this dataset accurately. Please consider this as a synthetic dataset and not a real-world representation of the country information.
