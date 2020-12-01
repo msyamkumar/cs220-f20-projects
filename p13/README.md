@@ -329,6 +329,6 @@ That's it for p13!
 
 ### After you add your name and the name of your partner to the notebook in the first cell, please remember to Kernel->Restart and Run All to check for errors then run the test.py script one more time before submission. To keep your code concise, please remove your own testing code that does not influence the correctness of answers.
 
-## WARNING: Close the database connection in the last cell. Not doing this will make autograder fail. Please save the TAs some time by correctly doing this as part of your last cell! 
+## WARNING: Close the database connection in the last cell. Not doing this will make autograder fail. Please do this right away and save your precious time. 
 Cheers!
 
