@@ -8,7 +8,7 @@ In this lab, you'll learn three things:
 
 ## Drawing a Fit
 
-Scatter plots are a good way to visualization correlations.  We'll
+Scatter plots are a good way to visualizing correlations.  We'll
 often want to overlay the scattered points with a line to represent
 the approximate relationship.  This can help us see the pattern
 underlying the noise.
@@ -16,7 +16,7 @@ underlying the noise.
 Let's construct a DataFrame with two related columns: tree age and
 tree height.  We'll randomly generate data.  Let's imagine that
 `height ≈ age * 2.3` (or `height = age * 2.3 + NOISE`) and randomly
-generate some data.  Complete and run the following to generate 100
+generate some data.  Complete and run the following code to generate 100
 random trees:
 
 ```python
@@ -60,7 +60,7 @@ Fill in the `????` parts to get a plot that looks something this:
 <img src="scatter.png">
 
 If we want to draw a fit line, we need to add some fitted height
-values to match the age values we already have in a DataFrame.
+values to match the age values we already have in the trees DataFrame.
 Let's use a slope of 2.
 
 ```python
@@ -89,7 +89,7 @@ trees.plot.line(ax=ax, x="age", y="height-fitted", color="red")
 
 Note that the above cell is the same as the earlier example, with the
 addition of just the `trees.plot.line` line at the end, so you could
-copy from earlier rather than fill in all the `????` parts.  It should
+copy code from earlier example, rather than fill in all the `????` parts.  Your plot should
 look like this:
 
 <img src="scatter-2.png">
@@ -101,7 +101,7 @@ in a meaningful way.  We'll use the `numpy` module for this.
 ## Numpy
 
 Numpy is the most popular way to represent matrices in Python and do
-linear algebra.  Import it:
+linear algebra. Let's import numpy:
 
 ```python
 import numpy as np
@@ -131,7 +131,7 @@ matrix = np.array([1,2,3,4,5,6,7,8]).reshape(4, 2)
 matrix
 ```
 
-The output of the above looks like this:
+The output of the above code looks like this:
 
 ```
 array([[1, 2],
@@ -192,7 +192,7 @@ all the strings.  Imagine that the tension in a spring is the square
 of the distance the spring is stretched (e.g., stretching a spring
 twice as far increases the tension in that spring by 4 times).
 
-Rather than get into the math of computing how the line will settle,
+Rather than getting into the math of computing how the line will settle,
 we'll use the `np.linalg.lstsq(...)` function in numpy.
 
 To setup the problem, imagine that we want to find some coefficients
@@ -222,7 +222,7 @@ inputs.head()
 If we have a DataFrame `df`, then `df[list_of_columns]` will create a
 DataFrame that has a subset of the original columns (as specified in
 the list), so `inputs` will look something like this (`age` is the
-`x` in this case):
+`x` in this case and `height` is the `y`):
 
 <img src="inputs.png">
 
