@@ -8,7 +8,7 @@ In this lab, you'll learn three things:
 
 ## Drawing a Fit
 
-Scatter plots are a good way to visualizing correlations.  We'll
+Scatter plots are a good way to visualize correlations.  We'll
 often want to overlay the scattered points with a line to represent
 the approximate relationship.  This can help us see the pattern
 underlying the noise.
