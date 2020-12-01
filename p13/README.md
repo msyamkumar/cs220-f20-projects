@@ -275,7 +275,7 @@ The position of the legend doesn't matter. Make sure the fitted line is red.
 
 #### #Q16: What are the top 15 countries that have the smallest gap between birth rate and death rate?
 
-You should display the `country` name, `birth-rate`, and `death-rate` of the top 15 countries that have the smallest `birth-rate` - `death-rate`. These top 15 countries should be displayed in *ascending* order of the gap.
+You should display the `country` name, `birth-rate`, and `death-rate` of the top 15 countries that have the smallest `birth-rate` - `death-rate`. These top 15 countries should be displayed in *ascending* order of the gap (`birth-rate` - `death-rate`).
 
 **Expected output:**
 
@@ -329,5 +329,6 @@ That's it for p13!
 
 ### After you add your name and the name of your partner to the notebook in the first cell, please remember to Kernel->Restart and Run All to check for errors then run the test.py script one more time before submission. To keep your code concise, please remove your own testing code that does not influence the correctness of answers.
 
+## WARNING: Close the database connection in the last cell. Not doing this will make autograder fail. Please save the TAs some time by correctly doing this as part of your last cell! 
 Cheers!
 
