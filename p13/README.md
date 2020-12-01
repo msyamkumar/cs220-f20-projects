@@ -125,7 +125,7 @@ x-axis in descending order by the number of countries and then alphabetically by
 
 <img src="imgs/13-2.PNG" width="350">
 
-The color doesn't matter. Remember to remove the legend if you plot has.
+The color doesn't matter. Remember to remove the legend if your plot has the legend.
 
 #### #Q3: What is the total area of each region?
 
@@ -148,7 +148,7 @@ x-axis in *descending* order of the column `total area`.
 
 <img src="imgs/13-4.PNG" width="350">
 
-The color doesn't matter. Remember to remove the legend if you plot has.
+The color doesn't matter. Remember to remove the legend if your plot has the legend.
 
 #### #Q5: What is the area of each country in the Near East region?
 
@@ -175,7 +175,7 @@ Hint: `real GDP = population * gdp-per-capita`
 
 <img src="imgs/13-7.PNG" width="350">
 
-The color doesn't matter. Remember to remove the legend if you plot has. Make sure to include the "other" category (add up the GDP of other countries).
+The color doesn't matter. Remember to remove the legend if your plot has the legend. Make sure to include the "other" category (add up the GDP of other countries).
 
 #### #Q8: What is the relationship between GDP per capita and literacy?
 
