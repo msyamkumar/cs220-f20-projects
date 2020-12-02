@@ -1,4 +1,8 @@
-# Stage 2: Databases and Plotting
+# P13: Databases and Plotting
+
+<h2>Corrections/Clarifications </h2>
+
+* December 1st: correct the expected output of q2, and correct the description of q13.
 
 **Find any issues?** Report to us:  
 
@@ -247,7 +251,7 @@ df.plot.line(x='x', y='fit', c='red', ax=ax)
 ```
 
 Then adapt the above code so that it uses your DataFrame (instead of
-df) and replaces "x" with `gdp-per-capita` and "y" with `inverse infant-mortality`. Answer with a **tuple** for coefficients `(m, n)`.:
+df) and replaces "x" with `gdp-per-capita` and "y" with `phones`. Answer with a **tuple** for coefficients `(m, n)`.:
 
 **Expected output:**
 
