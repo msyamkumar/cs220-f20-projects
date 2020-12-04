@@ -3,6 +3,7 @@
 <h2>Corrections/Clarifications </h2>
 
 * December 1st: correct the expected output of q2, and correct the description of q13.
+* December 4th: clarification of q19: **Hardcoding the range of values is acceptable for this question.**
 
 **Find any issues?** Report to us:  
 
@@ -310,9 +311,8 @@ These are the points:
 
 <img src="imgs/13-19.PNG" width="350">
 
-Write a query to grab rows corresponding roughly to that
-rectangle to get the points.  In the output, `gdp-per-capita` should be
-sorted low to high.
+You are not required to use any specific algorithm to find the outliers. Write a query to grab rows corresponding roughly to that rectangle to get the points. **Hardcoding the range of values is acceptable for this question.** In the output, `gdp-per-capita` should be
+sorted low to high. 
 
 **Expected output:**
 
