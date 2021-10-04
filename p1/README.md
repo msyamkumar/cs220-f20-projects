@@ -1,5 +1,7 @@
 # Project 1 (P1)
 
+# WARNING: Unless you took a time portal to become my student in the past, this is not the correct repository :) Please go to the correct github repository for the current semester. If you are a Fall'20 semester student though, you are in the right place.
+
 Welcome to our first project! Please follow the instruction in [lab](https://github.com/msyamkumar/cs220-f20-projects/tree/master/lab-p1) closely before starting the project.
 
 ## Clarifications/Corrections

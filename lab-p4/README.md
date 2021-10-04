@@ -1,5 +1,7 @@
 # Lab 4: Conditional Statements and Pokémon API
 
+# WARNING: Unless you took a time portal to become my student in the past, this is not the correct repository :) Please go to the correct github repository for the current semester. If you are a Fall'20 semester student though, you are in the right place.
+
 In P4, you will be playing with some Pokémon and you will simulate simple Pokémon battles using conditional statements. In Lab P4, you will learn to use `project.py`, which you will need to complete P4. You will also be introduced to some simple conditional statements and 'helper functions' which will be useful for P4.
 
 <h2> Corrections/Clarifications

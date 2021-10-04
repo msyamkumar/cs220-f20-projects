@@ -1,5 +1,7 @@
 # Lab P11: Scatter Plots, Recursion, and Shortcuts
 
+# WARNING: Unless you took a time portal to become my student in the past, this is not the correct repository :) Please go to the correct github repository for the current semester. If you are a Fall'20 semester student though, you are in the right place.
+
 In this lab, you'll learn how to create scatter plots, practice
 writing recursive code, and learn two techniques (default dictionaries
 and list comprehensions) to shorten your code.  Start by creating a

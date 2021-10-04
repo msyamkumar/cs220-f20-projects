@@ -1,5 +1,7 @@
 # Lab-P9: Plotting, Binning, and Sorting
 
+# WARNING: Unless you took a time portal to become my student in the past, this is not the correct repository :) Please go to the correct github repository for the current semester. If you are a Fall'20 semester student though, you are in the right place.
+
 In this lab, you'll learn to create simple plots, decode a secret
 message, and take your sorting to the next level.  Have fun!
 

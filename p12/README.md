@@ -1,5 +1,7 @@
 # Project 12: Geography, and the World Wide Web
 
+# WARNING: Unless you took a time portal to become my student in the past, this is not the correct repository :) Please go to the correct github repository for the current semester. If you are a Fall'20 semester student though, you are in the right place.
+
 ## Clarifications/Corrections
 
 November 23: add DISCLAMINER to the decription of the dataset. The dataset we use here has been taken from the source without any modifications. Any current information in the world affairs, including political implications haven't been represented in this dataset accurately. Please consider this as a synthetic dataset and not a real-world representation of the country information.

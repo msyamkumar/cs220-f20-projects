@@ -1,5 +1,7 @@
 # Lab 2: Python Modes and Programming
 
+# WARNING: Unless you took a time portal to become my student in the past, this is not the correct repository :) Please go to the correct github repository for the current semester. If you are a Fall'20 semester student though, you are in the right place.
+
 In the Wednesday lecture, we learned about three ways to run Python: interactive
 mode, script mode, and notebook "mode" (people outside of 220 won't
 use that vocabulary for notebooks, hence the quotes). In this
